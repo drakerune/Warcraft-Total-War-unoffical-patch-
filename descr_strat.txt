@@ -4369,8 +4369,6 @@ army
 unit		Sentry Sentinels Bodyguard	exp 3 armour 0 weapon_lvl 0
 unit		Night Elven Militia			exp 0 armour 0 weapon_lvl 0
 
-; Inside Shadowglen
-
 character	Isoraen Nightstar, priest, male, age 20, x 73, y 196, portrait isoraen 
 traits NaturalPriestSkill 1 , StrongFaith 3 , PriestLevel 1 
 
