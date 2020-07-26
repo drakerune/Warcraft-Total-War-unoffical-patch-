@@ -8860,7 +8860,7 @@ stat_mental      		13, normal, untrained
 stat_charge_dist 		30
 stat_fire_delay  		0
 stat_food        		60, 300
-stat_cost        		1, 640, 225, 125, 125, 640, 4, 64
+stat_cost        		1, 640, 230, 125, 125, 640, 4, 64
 armour_ug_levels 		0, 1, 2
 armour_ug_models 		troll_axe_throwers
 ownership        		slave, aztecs, saxons, egypt, drakari
@@ -9242,7 +9242,7 @@ move_speed_mod   	0.95
 formation        	2, 4.4, 3, 6, 3, square
 stat_health      	2, 0
 stat_pri         	12, 7, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-stat_pri_attr    	ap
+stat_pri_attr    	no
 stat_sec         	no
 stat_sec_attr    	no
 stat_pri_armour  	12, 5, 0, leather
@@ -10677,11 +10677,11 @@ soldier          	drakari_god_hunters, 20, 0, 2.4
 attributes       	sea_faring, hide_forest, hardy, can_withdraw, general_unit, free_upkeep_unit
 formation        	1.9, 1.9, 2.8, 2.8, 3, square
 stat_health      	2, 0
-stat_pri         	14, 7, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
+stat_pri         	14, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
 stat_pri_attr    	ap
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	11, 11, 0, metal
+stat_pri_armour  	13, 13, 0, metal
 stat_sec_armour  	0, 0, flesh
 stat_heat        	2
 stat_ground      	0, -3, -2, 2
@@ -10705,7 +10705,7 @@ class            	light
 voice_type       	Light
 banner faction   	main_infantry
 banner holy      	crusade
-soldier          	drakari_rabble, 70, 0, 1.4
+soldier          	drakari_rabble, 60, 0, 1.4
 attributes       	sea_faring, hide_forest, can_withdraw, free_upkeep_unit, hardy
 formation        	1.9, 1.9, 2.2, 2.2, 7, square
 stat_health      	2, 0
@@ -10713,15 +10713,15 @@ stat_pri         	5, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_pri_attr    	no
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 0, 1
 stat_sec_attr    	no
-stat_pri_armour  	3, 5, 0, leather
+stat_pri_armour  	0, 5, 0, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	0
 stat_ground      	0, -2, 0, 2
-stat_mental      	13, normal, untrained
+stat_mental      	14, normal, untrained
 stat_charge_dist 	20
 stat_fire_delay  	0
 stat_food        	60, 300
-stat_cost        	1, 550, 160, 100, 100, 550, 4, 55
+stat_cost        	1, 635, 225, 100, 100, 550, 4, 55
 armour_ug_levels 	0, 1, 2
 armour_ug_models 	drakari_rabble
 ownership        	drakari, slave, aztecs, saxons, egypt
@@ -10737,23 +10737,23 @@ class            	missile
 voice_type       	Light
 banner faction   	main_missile
 banner holy      	crusade
-soldier          	drakari_axe_throwers, 70, 0, 1.2
+soldier          	drakari_axe_throwers, 55, 0, 1.2
 attributes       	sea_faring, hide_forest, can_withdraw, frighten_foot, free_upkeep_unit
 formation        	1.9, 1.9, 2.2, 2.2, 7, square
 stat_health      	2, 0
-stat_pri         	8, 2, Marauder_axe, 60, 6, thrown, missile_mechanical, piercing, spear, 25, 1
+stat_pri         	8, 2, Marauder_axe, 65, 6, thrown, missile_mechanical, piercing, spear, 25, 1
 stat_pri_attr    	ap, thrown
 stat_sec         	5, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	4, 7, 0, leather
+stat_pri_armour  	0, 5, 0, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	2
 stat_ground      	0, -2, 0, 2
-stat_mental      	13, normal, trained
+stat_mental      	14, normal, trained
 stat_charge_dist 	40
 stat_fire_delay  	0
 stat_food        	60, 300
-stat_cost        	1, 640, 225, 125, 125, 640, 4, 64
+stat_cost        	1, 640, 230, 125, 125, 640, 4, 64
 armour_ug_levels 	0, 1, 2
 armour_ug_models 	drakari_axe_throwers
 ownership        	drakari, slave, aztecs, saxons, egypt
@@ -10762,7 +10762,7 @@ era 1            	drakari
 era 2            	drakari
 recruit_priority_offset 20
 
-type             	Mounted Drakari Axe Throwers
+type             	Mounted Drakari Axe Throwers			; Drakkari Bear Skirmishers
 dictionary       	mounted_drakari_axe_throwers
 category         	cavalry
 class            	skirmish
@@ -10776,15 +10776,15 @@ attributes       	sea_faring, hide_forest, very_hardy, can_withdraw, cantabrian_
 move_speed_mod   	0.95
 formation        	2, 4.4, 3, 6, 3, horde
 stat_health      	2, 3
-stat_pri         	10, 4, Marauder_axe, 60, 6, thrown, missile_mechanical, piercing, spear, 20, 1
+stat_pri         	10, 6, Marauder_axe, 60, 6, thrown, missile_mechanical, piercing, spear, 20, 1
 stat_pri_attr    	ap, thrown
-stat_sec         	6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 15, 1
+stat_sec         	5, 6, no, 0, 0, melee, melee_blade, piercing, sword, 15, 1
 stat_sec_attr    	no
-stat_pri_armour  	4, 5, 2, leather
+stat_pri_armour  	0, 4, 0, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	2
 stat_ground      	0, -2, 0, 2
-stat_mental      	12, normal, trained
+stat_mental      	13, normal, trained
 stat_charge_dist 	30
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -10804,19 +10804,19 @@ class            	heavy
 voice_type       	Heavy
 banner faction   	main_infantry
 banner holy      	crusade
-soldier          	drakari_warriors, 60, 0, 1.2
+soldier          	drakari_warriors, 50, 0, 1.2
 attributes       	sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit
 formation        	1.9, 1.9, 2.8, 2.8, 6, square
 stat_health      	2, 0
-stat_pri         	8, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         	8, 5, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_pri_attr    	no
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	8, 5, 4, leather
+stat_pri_armour  	6, 6, 4, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	5
 stat_ground      	0, -2, 0, 2
-stat_mental      	16, normal, trained
+stat_mental      	19, normal, trained
 stat_charge_dist 	8
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -10835,20 +10835,20 @@ class            	spearmen
 voice_type       	Light
 banner faction   	main_spear
 banner holy      	crusade
-soldier          	drakari_spearmen, 60, 0, 1.2
+soldier          	drakari_spearmen, 50, 0, 1.2
 mount_effect		horse +3, camel +2, elephant -1
 attributes       	sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 formation        	1.9, 1.9, 2.8, 2.8, 6, square, schiltrom
 stat_health      	2, 0
-stat_pri         	6, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+stat_pri         	6, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
 stat_pri_attr    	spear, spear_bonus_6
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	6, 7, 5, leather
+stat_pri_armour  	6, 8, 5, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	2
 stat_ground      	0, -2, 0, 2
-stat_mental      	16, normal, trained
+stat_mental      	19, normal, trained
 stat_charge_dist 	15
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -10860,29 +10860,29 @@ era 0            	drakari
 era 1            	drakari
 era 2            	drakari
 
-type             	Mounted Drakari Warriors 
+type             	Mounted Drakari Warriors			; Drakkari Raptor Warriors
 dictionary       	mounted_drakari_warriors      ; Troll Raptor Warriors
 category         	cavalry
 class            	light
 voice_type       	Heavy
 banner faction   	main_cavalry
 banner holy      	crusade_cavalry
-soldier          	mounted_drakari_warriors, 25, 0, 1.5
+soldier          	mounted_drakari_warriors, 24, 0, 1.5
 mount            	raptor
 mount_effect     	elephant -4, camel -4
 attributes       	sea_faring, hide_forest, can_withdraw, can_formed_charge, free_upkeep_unit
 move_speed_mod   	1.1
 formation        	2, 4.4, 3, 6, 4, square
 stat_health      	1, 0
-stat_pri         	8, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         	7, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_pri_attr    	no
 stat_sec         	no
 stat_sec_attr    	no
-stat_pri_armour  	4, 4, 4, leather
+stat_pri_armour  	6, 4, 4, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	3
 stat_ground      	0, -2, 0, 2
-stat_mental      	14, normal, trained
+stat_mental      	18, normal, trained
 stat_charge_dist 	15
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -10894,29 +10894,29 @@ era 0            	drakari
 era 1            	drakari
 era 2            	drakari
 
-type             	Mounted Drakari Spearmen 
+type             	Mounted Drakari Spearmen		; Drakkari Scouts
 dictionary       	mounted_drakari_spearmen      ; Mounted Drakari Spearmen
 category         	cavalry
 class            	light
 voice_type       	Light
 banner faction   	main_cavalry
 banner holy      	crusade_cavalry
-soldier          	mounted_drakari_spearmen, 25, 0, 1.4
+soldier          	mounted_drakari_spearmen, 24, 0, 1.4
 mount            	raptor
 mount_effect     	elephant -4, camel +2, horse +2
 attributes       	sea_faring, hide_forest, can_withdraw, can_formed_charge, free_upkeep_unit
 move_speed_mod   	1.1
 formation        	2, 4.4, 3, 6, 4, square
 stat_health      	1, 0
-stat_pri         	7, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri         	6, 9, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_pri_attr    	no
-stat_sec         	6, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec         	5, 9, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    	no
 stat_pri_armour  	4, 4, 4, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	3
 stat_ground      	0, -2, 0, 2
-stat_mental      	14, normal, trained
+stat_mental      	18, normal, trained
 stat_charge_dist 	40
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -10936,15 +10936,16 @@ class            	heavy
 voice_type       	Heavy
 banner faction   	main_infantry
 banner holy      	crusade
-soldier          	drakari_temple_guards, 50, 0, 2
+soldier          	drakari_temple_guards, 40, 0, 2
+mount_effect		elephant +1, horse +4, camel +2
 attributes       	sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit, command
-formation        	1.9, 1.9, 2.8, 2.8, 6, square
+formation        	1.9, 1.9, 2.8, 2.8, 5, square
 stat_health      	2, 0
-stat_pri         	10, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
+stat_pri         	10, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
 stat_pri_attr    	no
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	11, 10, 0, leather
+stat_pri_armour  	14, 8, 0, metal
 stat_sec_armour  	0, 0, flesh
 stat_heat        	4
 stat_ground      	0, -2, 0, 2
@@ -10967,24 +10968,24 @@ class            	heavy
 voice_type       	Heavy
 banner faction   	main_infantry
 banner holy      	crusade
-soldier          	drakari_trappers, 50, 0, 1.8
+soldier          	drakari_trappers, 40, 0, 1.8
 attributes       	sea_faring, hide_forest, hardy, can_withdraw, free_upkeep_unit, stakes
-formation        	1.9, 1.9, 2.2, 2.2, 6, square
+formation        	1.9, 1.9, 2.8, 2.8, 5, square
 stat_health      	2, 0
-stat_pri         	11, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
+stat_pri         	11, 7, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
 stat_pri_attr    	no
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	8, 8, 0, leather
+stat_pri_armour  	6, 14, 0, leather
 stat_sec_armour  	0, 0, metal
 stat_heat        	3
 stat_ground      	0, -2, -2, 2
-stat_mental      	18, impetuous, highly_trained
+stat_mental      	20, impetuous, highly_trained
 stat_charge_dist 	15
 stat_fire_delay  	0
 stat_food        	60, 300
 stat_cost        	3, 1200, 440, 200, 200, 1200, 2, 120
-armour_ug_levels 	2, 3
+armour_ug_levels 	1, 2, 3
 armour_ug_models 	drakari_trappers
 ownership        	drakari, slave, aztecs, saxons, egypt
 era 0            	drakari
@@ -10998,20 +10999,20 @@ class            	missile
 voice_type       	Light
 banner faction   	main_missile
 banner holy      	crusade
-soldier          	drakari_archers, 45, 0, 1.4
+soldier          	drakari_archers, 35, 0, 1.4
 attributes       	sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 move_speed_mod   	1.1
 formation        	1.9, 1.9, 2.8, 2.8, 6, square
 stat_health      	2, 0
-stat_pri         	7, 2, bodkin_arrow, 160, 26, missile, missile_mechanical, piercing, none, 25, 1
-stat_pri_attr    	ap, area
-stat_sec         	6, 2, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1.2
+stat_pri         	7, 4, bodkin_arrow, 200, 32, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri_attr    	area
+stat_sec         	6, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1.2
 stat_sec_attr    	no
-stat_pri_armour  	8, 5, 0, leather
+stat_pri_armour  	8, 4, 0, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	2
 stat_ground      	0, -2, 0, 2
-stat_mental      	16, normal, trained
+stat_mental      	19, normal, trained
 stat_charge_dist 	30
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -11032,20 +11033,20 @@ banner faction   	main_cavalry
 banner holy      	crusade_cavalry
 soldier          	mounted_drakari_temple_guards, 20, 0, 2.4
 mount            	amanibear
-mount_effect     	elephant -4, camel -4
+mount_effect     	elephant +1, camel +2, horse +2
 attributes       	sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, can_formed_charge, frighten_mounted, free_upkeep_unit
 move_speed_mod   	0.95
 formation        	2, 4.4, 3, 6, 3, square
 stat_health      	2, 0
-stat_pri         	10, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         	9, 10, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_pri_attr    	no
 stat_sec         	no
 stat_sec_attr    	no
-stat_pri_armour  	11, 8, 0, leather
+stat_pri_armour  	14, 6, 0, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	1
 stat_ground      	0, -2, -1, 2
-stat_mental      	20, disciplined, highly_trained
+stat_mental      	21, disciplined, highly_trained
 stat_charge_dist 	15
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -11071,15 +11072,15 @@ attributes       	sea_faring, hide_forest, can_withdraw, can_formed_charge, cant
 move_speed_mod   	1.1
 formation        	2, 4.4, 3, 6, 3, horde
 stat_health      	2, 0
-stat_pri         	6, 5, cav_composite_arrow, 110, 24, missile, missile_mechanical, piercing, none, 25, 1
-stat_pri_attr    	ap
-stat_sec         	5, 5, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         	6, 7, cav_composite_arrow, 130, 28, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri_attr    	no
+stat_sec         	5, 7, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	6, 5, 0, flesh
+stat_pri_armour  	8, 4, 0, flesh
 stat_sec_armour  	0, 0, flesh
 stat_heat        	1
 stat_ground      	0, -2, -1, 2
-stat_mental      	16, normal, trained
+stat_mental      	18, normal, trained
 stat_charge_dist 	30
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -11106,11 +11107,11 @@ stat_pri         	10, 2, frost_breath, 150, 10, missile, missile_mechanical, pie
 stat_pri_attr    	ap, area
 stat_sec         	3, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	3, 8, 0, flesh
+stat_pri_armour  	2, 7, 0, flesh
 stat_sec_armour  	0, 0, flesh
 stat_heat        	0
 stat_ground      	0, 0, 0, 0
-stat_mental      	16, disciplined, highly_trained
+stat_mental      	18, disciplined, highly_trained
 stat_charge_dist 	40
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -11162,16 +11163,15 @@ class            	heavy
 voice_type       	Heavy
 banner faction   	main_infantry
 banner holy      	crusade
-soldier          	drakari_god_hunters, 40, 0, 2.4
+soldier          	drakari_god_hunters, 30, 0, 2.4
 attributes       	sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, command, free_upkeep_unit
-move_speed_mod   	1.1
 formation        	1.9, 1.9, 2.8, 2.8, 4, square
 stat_health      	2, 0
-stat_pri         	12, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
+stat_pri         	12, 7, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
 stat_pri_attr    	ap
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	9, 9, 0, metal
+stat_pri_armour  	12, 12, 0, metal
 stat_sec_armour  	0, 0, flesh
 stat_heat        	2
 stat_ground      	0, -3, -2, 2
@@ -11267,11 +11267,11 @@ stat_pri         	11, 3, tzeench_fireball, 160, 10, missile, missile_mechanical,
 stat_pri_attr    	ap, bp, area
 stat_sec         	4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	4, 12, 0, flesh
+stat_pri_armour  	3, 10, 0, flesh
 stat_sec_armour  	0, 0, flesh
 stat_heat        	0
 stat_ground      	0, 0, 0, 0
-stat_mental      	18, disciplined, highly_trained
+stat_mental      	20, disciplined, highly_trained
 stat_charge_dist 	40
 stat_fire_delay  	0
 stat_food        	60, 300
