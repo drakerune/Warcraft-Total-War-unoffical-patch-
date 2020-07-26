@@ -19,8 +19,7 @@ building core_building
                 wall_level 0
                 tower_level 1
                 happiness_bonus bonus 1
-				recruitment_slots 1
-				population_growth_bonus bonus 1				
+				recruitment_slots 1				
             }
             material wooden
             construction  4 
@@ -41,10 +40,9 @@ building core_building
                 tower_level 1
                 happiness_bonus bonus 1
                 recruitment_slots 1
-				population_growth_bonus bonus 1
             }
             material wooden
-            construction  6 
+            construction  5 
             cost  3400 
             settlement_min town
             upgrades
@@ -61,10 +59,9 @@ building core_building
                 gate_strength 1
                 happiness_bonus bonus 1
                 recruitment_slots 1
-				population_growth_bonus bonus 1
             }
             material stone
-            construction  9 
+            construction  7 
             cost  6000 
             settlement_min large_town
             upgrades
@@ -81,10 +78,9 @@ building core_building
                 gate_strength 2
                 happiness_bonus bonus 2
                 recruitment_slots 1
-				population_growth_bonus bonus 1
             }
             material stone
-            construction  11 
+            construction  9 
             cost  9600 
             settlement_min city
             upgrades
@@ -101,10 +97,9 @@ building core_building
                 gate_strength 2
                 happiness_bonus bonus 3
                 recruitment_slots 1
-				population_growth_bonus bonus 1
             }
             material stone
-            construction  15 
+            construction  11
             cost  11000 
             settlement_min large_city
             upgrades
@@ -202,7 +197,6 @@ building core_castle_building
 				free_upkeep bonus 2
                 law_bonus bonus 1
                 recruitment_slots 2
-				population_growth_bonus bonus 1
             }
             material wooden
             construction  4 
@@ -296,7 +290,6 @@ building core_castle_building
 				free_upkeep bonus 2
                 law_bonus bonus 2
                 recruitment_slots 2
-				population_growth_bonus bonus 1
             }
             material wooden
             construction  6 
@@ -390,7 +383,6 @@ building core_castle_building
 				free_upkeep bonus 2
                 law_bonus bonus 3
                 recruitment_slots 2
-				population_growth_bonus bonus 1
             }
             material stone
             construction  9 
@@ -484,7 +476,6 @@ building core_castle_building
 				free_upkeep bonus 2
                 law_bonus bonus 4
                 recruitment_slots 2
-				population_growth_bonus bonus 1
             }
             material stone
             construction  12 
@@ -578,7 +569,6 @@ building core_castle_building
 				free_upkeep bonus 2
                 law_bonus bonus 5
                 recruitment_slots 2
-				population_growth_bonus bonus 1
             }
             material stone
             construction  14 

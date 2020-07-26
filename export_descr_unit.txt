@@ -10018,7 +10018,7 @@ class            	missile
 voice_type       	Light
 banner faction   	main_missile
 banner holy      	crusade
-soldier          	sandfury_axe_thrower, 55, 0, 1.2
+soldier          	sandfury_axe_thrower, 65, 0, 1.2
 attributes       	sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 move_speed_mod   	1.08
 formation        	1.9, 1.9, 2.2, 2.2, 6, square
@@ -10088,7 +10088,7 @@ attributes       	sea_faring, very_hardy, hide_forest, free_upkeep_unit, can_wit
 move_speed_mod 	 	1.1
 formation        	1.9, 1.9, 2.8, 2.8, 6, square
 stat_health      	2, 0
-stat_pri         	8, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         	8, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_pri_attr    	no
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
@@ -10096,7 +10096,7 @@ stat_pri_armour  	5, 2, 4, leather
 stat_sec_armour  	0, 0,  flesh
 stat_heat        	0
 stat_ground      	-1, 2, 0, -2
-stat_mental      	15, normal, trained
+stat_mental      	16, normal, trained
 stat_charge_dist 	6
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -10107,6 +10107,7 @@ ownership        	egypt, slave, aztecs, saxons, drakari
 era 0            	egypt
 era 1            	egypt
 era 2            	egypt
+recruit_priority_offset	10
 
 type             	Sandfury Nomad Spearmen			; Nomad Spearmen
 dictionary       	sandfury_nomad_spearmen      ; Sergeants
@@ -10115,21 +10116,21 @@ class            	spearmen
 voice_type       	Light
 banner faction   	main_spear
 banner holy      	crusade
-soldier          	sandfury_nomad_spearmen, 70, 0, 1.2
+soldier          	sandfury_nomad_spearmen, 60, 0, 1.2
 mount_effect		horse +2, camel +3, elephant +1
 attributes       	sea_faring, very_hardy, hide_forest, free_upkeep_unit, can_withdraw
 move_speed_mod 	 	1.1
 formation        	1.9, 1.9, 2.8, 2.8, 7, square, schiltrom
 stat_health      	2, 0
-stat_pri         	6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+stat_pri         	6, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
 stat_pri_attr    	light_spear, spear_bonus_4
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	6, 9, 5, flesh
+stat_pri_armour  	2, 6, 5, flesh
 stat_sec_armour  	0, 0,  flesh
 stat_heat        	0
 stat_ground      	-1, 2, 0, -2
-stat_mental      	15, normal, trained
+stat_mental      	16, normal, trained
 stat_charge_dist 	6
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -10140,6 +10141,7 @@ ownership        	egypt, slave, aztecs, saxons, drakari
 era 0            	egypt
 era 1            	egypt
 era 2            	egypt
+recruit_priority_offset	10
 
 type             	Sandfury Nomad Hunters			; Nomad Hunters 
 dictionary       	sandfury_nomad_hunters      ; Troll Headhunters
@@ -10148,25 +10150,25 @@ class            	missile
 voice_type       	Light
 banner faction   	main_missile
 banner holy      	crusade
-soldier          	sandfury_nomad_hunters, 70, 0, 1.2
+soldier          	sandfury_nomad_hunters, 55, 0, 1.2
 mount_effect     	elephant +6, camel +3, horse +4
 attributes       	sea_faring, hardy, hide_forest, free_upkeep_unit, can_withdraw
 move_speed_mod   	1.15
 formation        	1.9, 1.9, 2.8, 2.8, 7, square
 stat_health      	2, 0
-stat_pri         	10, 5, javelin, 65, 4, thrown, missile_mechanical, piercing, spear, 25, 1
-stat_pri_attr    	ap, thrown
-stat_sec         	7, 5, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         	9, 3, javelin, 65, 4, thrown, missile_mechanical, piercing, spear, 25, 1
+stat_pri_attr    	thrown
+stat_sec         	6, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	0, 6, 0, flesh
+stat_pri_armour  	0, 4, 0, flesh
 stat_sec_armour  	0, 0,  flesh
 stat_heat        	2
 stat_ground      	-1, 2, 0, -2
-stat_mental      	12, normal, trained
+stat_mental      	15, normal, trained
 stat_charge_dist 	5
 stat_fire_delay  	0
 stat_food        	60, 300
-stat_cost        	2, 750, 265, 125, 125, 750, 4, 75
+stat_cost        	2, 800, 285, 125, 125, 800, 4, 80
 armour_ug_levels 	0, 1, 2
 armour_ug_models 	sandfury_nomad_hunters
 ownership        	egypt, slave, aztecs, saxons, drakari
@@ -10181,20 +10183,20 @@ class            	missile
 voice_type       	Light
 banner faction   	main_missile
 banner holy      	crusade
-soldier          	sandfury_nomad_bowmen, 70, 0, 1.2
+soldier          	sandfury_nomad_bowmen, 55, 0, 1.2
 attributes       	sea_faring, hardy, hide_forest, free_upkeep_unit, can_withdraw
 move_speed_mod   	1.15
-formation        	1.9, 1.9, 2.8, 2.8, 7, square
+formation        	1.9, 1.9, 2.8, 2.8, 6, square
 stat_health      	2, 0
-stat_pri         	6, 2, arrow, 170, 26, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         	6, 3, bodkin_arrow, 180, 26, missile, missile_mechanical, piercing, none, 25, 1
 stat_pri_attr    	area
-stat_sec         	6, 3, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1.8
+stat_sec         	5, 3, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1.8
 stat_sec_attr    	no
-stat_pri_armour  	1, 6, 0, flesh
+stat_pri_armour  	2, 2, 0, flesh
 stat_sec_armour  	0, 0, flesh
 stat_heat        	0
 stat_ground      	-1, 2, 0, -2
-stat_mental      	12, normal, trained
+stat_mental      	15, normal, trained
 stat_charge_dist 	15
 stat_fire_delay  	0
 stat_food        	60, 300
@@ -10217,22 +10219,22 @@ soldier          	farraki_raptor_warriors, 30, 0, 1.5
 mount            	raptor
 mount_effect     	elephant -4, camel -4
 attributes       	sea_faring, hide_forest, can_withdraw, can_formed_charge, free_upkeep_unit
-move_speed_mod   	1.15
+move_speed_mod   	1.1
 formation        	2, 4.4, 3, 6, 3, square
 stat_health      	2, 0
-stat_pri         	9, 5, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         	9, 9, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_pri_attr    	no
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	4, 8, 3, leather
+stat_pri_armour  	5, 5, 4, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	1
 stat_ground      	-1, 2, 0, -2
-stat_mental      	13, normal, trained
+stat_mental      	15, normal, trained
 stat_charge_dist 	15
 stat_fire_delay  	0
 stat_food        	60, 300
-stat_cost        	2, 1050, 360, 125, 125, 1050, 2, 105
+stat_cost        	3, 1050, 360, 125, 125, 1050, 2, 105
 armour_ug_levels 	3, 4, 5
 armour_ug_models 	farraki_raptor_warriors
 ownership        	egypt, slave, aztecs, saxons, drakari
@@ -10254,20 +10256,20 @@ attributes       	sea_faring, hide_forest, can_withdraw, can_formed_charge, free
 move_speed_mod   	1.15
 formation        	2, 4.4, 3, 6, 3, square
 stat_health      	2, 0
-stat_pri         	7, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri         	8, 9, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_pri_attr    	no
-stat_sec         	6, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec         	7, 9, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	4, 8, 3, leather
+stat_pri_armour  	2, 6, 4, leather
 stat_sec_armour  	0, 3, flesh
 stat_heat        	2
 stat_ground      	-1, 2, 0, -2
-stat_mental      	13, normal, trained
+stat_mental      	15, normal, trained
 stat_charge_dist 	40
 stat_fire_delay  	0
 stat_food        	60, 300
-stat_cost        	2, 1050, 360, 125, 125, 1050, 2, 105
-armour_ug_levels 	3, 4, 5
+stat_cost        	3, 1000, 360, 125, 125, 1050, 2, 105
+armour_ug_levels 	1, 2, 3
 armour_ug_models 	mounted_sandfury_nomad_spearmen, mounted_sandfury_nomad_spearmen, mounted_sandfury_nomad_spearmen
 ownership        	egypt, slave, aztecs, saxons, drakari
 era 0            	egypt
@@ -10283,24 +10285,24 @@ banner faction   	main_cavalry
 banner holy      	crusade_cavalry
 soldier          	mounted_sandfury_nomad_hunters, 30, 0, 1.3
 mount            	Cold one
-mount_effect     	elephant +4, camel +4, horse +2
+mount_effect     	elephant +6, camel +3, horse +4
 attributes       	sea_faring, hide_forest, very_hardy, can_withdraw, cantabrian_circle, free_upkeep_unit
 move_speed_mod   	1.15
 formation        	2, 4.4, 3, 6, 3, horde
 stat_health      	2, 3
 stat_pri         	11, 6, javelin, 65, 4, thrown, missile_mechanical, piercing, spear, 20, 1
-stat_pri_attr    	ap, thrown
+stat_pri_attr    	thrown
 stat_sec         	6, 6, no, 0, 0, melee, melee_blade, piercing, sword, 15, 1
 stat_sec_attr    	no
-stat_pri_armour  	2, 7, 0, flesh
+stat_pri_armour  	2, 4, 0, flesh
 stat_sec_armour  	0, 3, flesh
 stat_heat        	2
 stat_ground      	-1, 2, 0, -2
-stat_mental      	13, normal, trained
+stat_mental      	14, normal, trained
 stat_charge_dist 	40
 stat_fire_delay  	0
 stat_food        	60, 300
-stat_cost        	2, 1000, 335, 125, 125, 1000, 2, 100
+stat_cost        	3, 1000, 335, 125, 125, 1000, 2, 100
 armour_ug_levels 	0
 armour_ug_models 	mounted_sandfury_nomad_hunters
 ownership        	egypt, slave, aztecs, saxons, drakari
@@ -10331,7 +10333,7 @@ stat_mental 		12, disciplined, highly_trained
 stat_charge_dist 	15
 stat_fire_delay  	0
 stat_food 		 	60, 300
-stat_cost 		 	2, 1200, 445, 125, 125, 1200, 1, 120
+stat_cost 		 	3, 1200, 445, 125, 125, 1200, 1, 120
 armour_ug_levels 	0, 1, 2
 armour_ug_models 	farraki_hydromancers
 ownership        	egypt, slave, aztecs, saxons, drakari
@@ -10352,7 +10354,7 @@ attributes       	sea_faring, can_withdraw, warcry, free_upkeep_unit, hide_fores
 move_speed_mod   	1.1
 formation        	1.9, 1.9, 2.8, 2.8, 6, square
 stat_health      	2, 0
-stat_pri         	11, 6, no, 0, 0, melee, melee_blade, slashing, sword, 0, 1
+stat_pri         	12, 7, no, 0, 0, melee, melee_blade, slashing, sword, 0, 1
 stat_pri_attr    	ap
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
@@ -10364,7 +10366,7 @@ stat_mental      	19, disciplined, highly_trained
 stat_charge_dist 	15
 stat_fire_delay  	0
 stat_food        	60, 300
-stat_cost        	2, 1200, 435, 150, 150, 1200, 2, 120
+stat_cost        	3, 1200, 435, 150, 150, 1200, 2, 120
 armour_ug_levels 	2, 3
 armour_ug_models 	sandfury_blood_drinker
 ownership        	egypt, slave, aztecs, saxons, drakari
@@ -10383,7 +10385,7 @@ soldier          	sandfury_zealot, 50, 0, 1.4
 attributes       	sea_faring, can_withdraw, warcry, hide_forest, hardy, free_upkeep_unit
 formation        	1.9, 1.9, 2.8, 2.8, 6, square
 stat_health      	2, 0
-stat_pri         	9, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
+stat_pri         	11, 7, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
 stat_pri_attr    	no
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
@@ -10395,7 +10397,7 @@ stat_mental      	19, impetuous, trained
 stat_charge_dist 	15
 stat_fire_delay  	0
 stat_food        	60, 300
-stat_cost        	2, 1200, 435, 150, 150, 1200, 2, 120
+stat_cost        	3, 1200, 435, 150, 150, 1200, 2, 120
 armour_ug_levels 	2, 3
 armour_ug_models 	sandfury_zealot
 ownership        	egypt, slave, aztecs, saxons, drakari
@@ -10410,16 +10412,16 @@ class            	missile
 voice_type       	Light
 banner faction   	main_missile
 banner holy      	crusade
-soldier          	sandfury_archers, 50, 0, 1.2
+soldier          	sandfury_archers, 45, 0, 1.2
 attributes       	sea_faring, hide_forest, can_withdraw, free_upkeep_unit
 move_speed_mod  	1.1
 formation        	1.9, 1.9, 2.2, 2.2, 6, square
 stat_health      	2, 0
-stat_pri         	8, 5, bodkin_arrow, 180, 26, missile, missile_mechanical, piercing, none, 25, 1
-stat_pri_attr    	ap
-stat_sec         	7, 5, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1.2
+stat_pri         	8, 4, arrow, 200, 32, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri_attr    	ap, area
+stat_sec         	7, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1.2
 stat_sec_attr    	no
-stat_pri_armour  	3, 8, 0, leather
+stat_pri_armour  	5, 5, 0, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	2
 stat_ground      	-1, 2, 0, -2
@@ -10427,7 +10429,7 @@ stat_mental      	16, normal, trained
 stat_charge_dist 	30
 stat_fire_delay  	0
 stat_food        	60, 300
-stat_cost        	2, 1050, 415, 150, 150, 1050, 2, 105
+stat_cost        	3, 1050, 415, 150, 150, 1050, 2, 105
 armour_ug_levels 	3
 armour_ug_models 	sandfury_archers
 ownership        	egypt, slave, aztecs, saxons, drakari
@@ -10449,11 +10451,11 @@ attributes       	sea_faring, hide_forest, can_withdraw, can_formed_charge, cant
 move_speed_mod   	1.3
 formation        	2, 4.4, 3, 6, 3, horde
 stat_health      	2, 0
-stat_pri         	6, 5, cav_composite_arrow, 120, 26, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         	6, 5, cav_composite_arrow, 130, 30, missile, missile_mechanical, piercing, none, 25, 1
 stat_pri_attr    	no
 stat_sec         	7, 5, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	4, 3, 0, leather
+stat_pri_armour  	5, 2, 0, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	2
 stat_ground      	-1, 2, 0, -2
@@ -10488,7 +10490,7 @@ stat_pri_armour  	1, 8, 0, flesh
 stat_sec_armour  	0, 0, flesh
 stat_heat        	1
 stat_ground      	-1, 2, 0, -2
-stat_mental      	14, disciplined, highly_trained
+stat_mental      	15, disciplined, highly_trained
 stat_charge_dist 	15
 stat_fire_delay  	1000
 stat_food        	60, 300
@@ -10509,14 +10511,15 @@ voice_type       	Heavy
 banner faction   	main_infantry
 banner holy      	crusade
 soldier          	farraki_champions, 40, 0, 2
+mount_effect		elephant +2, camel +3, horse +4
 attributes       	sea_faring, hide_forest, very_hardy, can_withdraw, free_upkeep_unit
-formation        	1.9, 1.9, 2.2, 2.2, 6, square
+formation        	1.9, 1.9, 2.2, 2.2, 5, square
 stat_health      	2, 0
-stat_pri         	13, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
-stat_pri_attr    	ap
+stat_pri         	14, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_pri_attr    	no
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	6, 14, 0, leather
+stat_pri_armour  	14, 4, 0, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	2
 stat_ground      	-1, 2, 0, -2
@@ -10525,7 +10528,7 @@ stat_charge_dist 	15
 stat_fire_delay  	0
 stat_food        	60, 300
 stat_cost        	3, 1400, 480, 200, 200, 1400, 2, 140
-armour_ug_levels 	2, 3
+armour_ug_levels 	3, 4, 5
 armour_ug_models 	farraki_champions
 ownership        	egypt, slave, aztecs, saxons, drakari
 era 0            	egypt
@@ -10542,13 +10545,13 @@ banner holy      	crusade
 soldier          	farraki_shadowblades, 40, 0, 1.5
 attributes       	sea_faring, can_swim, very_hardy, frighten_foot, hide_anywhere, can_withdraw, free_upkeep_unit
 move_speed_mod   	1.2
-formation        	1.2, 1.2, 2, 2, 6, square
+formation        	1.2, 1.2, 2, 2, 5, square
 stat_health      	1, 0
 stat_pri         	15, 7, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
 stat_pri_attr    	ap
 stat_sec         	0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    	no
-stat_pri_armour  	4, 14, 0, leather
+stat_pri_armour  	6, 10, 0, leather
 stat_sec_armour  	0, 0, flesh
 stat_heat        	0
 stat_ground      	-1, 2, 0, -2
@@ -10670,9 +10673,8 @@ class            	heavy
 voice_type       	Heavy
 banner faction   	main_infantry
 banner holy      	crusade
-soldier          	drakari_god_hunters, 30, 0, 2.4
+soldier          	drakari_god_hunters, 20, 0, 2.4
 attributes       	sea_faring, hide_forest, hardy, can_withdraw, general_unit, free_upkeep_unit
-move_speed_mod   	1.1
 formation        	1.9, 1.9, 2.8, 2.8, 3, square
 stat_health      	2, 0
 stat_pri         	14, 7, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
@@ -10726,6 +10728,7 @@ ownership        	drakari, slave, aztecs, saxons, egypt
 era 0            	drakari
 era 1            	drakari
 era 2            	drakari
+recruit_priority_offset 30
 
 type             	Drakari Axe Throwers
 dictionary       	drakari_axe_throwers      ; Drakari Axe Throwers
@@ -10757,6 +10760,7 @@ ownership        	drakari, slave, aztecs, saxons, egypt
 era 0            	drakari
 era 1            	drakari
 era 2            	drakari
+recruit_priority_offset 20
 
 type             	Mounted Drakari Axe Throwers
 dictionary       	mounted_drakari_axe_throwers
