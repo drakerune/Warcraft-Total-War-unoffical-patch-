@@ -7012,7 +7012,7 @@ building temple_light
             {
 				agent priest  0  requires factions { lordaeron, stormwind, theramore, centaur, poland, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -7032,7 +7032,7 @@ building temple_light
 				
 				agent priest  0  requires factions { lordaeron, stormwind, theramore, centaur, poland, }
                 happiness_bonus bonus 2
-                religion_level bonus 3
+                religion_level bonus 5
                 agent_limit priest 1
             }
             material wooden
@@ -7053,7 +7053,7 @@ building temple_light
 				
 				agent priest  0  requires factions { lordaeron, stormwind, theramore, centaur, poland, }
                 happiness_bonus bonus 2
-                religion_level bonus 4
+                religion_level bonus 8
                 agent_limit priest 1
                 population_health_bonus bonus 1
             }
@@ -7075,7 +7075,7 @@ building temple_light
 				
 				agent priest  0  requires factions { lordaeron, stormwind, theramore, centaur, poland, }
                 happiness_bonus bonus 2
-                religion_level bonus 5
+                religion_level bonus 10
                 agent_limit priest 1
                 population_health_bonus bonus 2
             }
@@ -7123,7 +7123,7 @@ building temple_light_castle
             {
 				agent priest  0  requires factions { lordaeron, stormwind, theramore, centaur, poland, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -7175,7 +7175,7 @@ building temple_shaman
 			
 				agent priest  0  requires factions { horde, goblin, papal_states, } 
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -7199,7 +7199,7 @@ building temple_shaman
 				
 				agent priest  0  requires factions { horde, goblin, papal_states, } 
                 happiness_bonus bonus 2
-                religion_level bonus 3
+                religion_level bonus 5
                 agent_limit priest 1
             }
             material wooden
@@ -7227,7 +7227,7 @@ building temple_shaman
 				
 				agent priest  0  requires factions { horde, goblin, papal_states, } 
                 happiness_bonus bonus 2
-                religion_level bonus 4
+                religion_level bonus 8
                 agent_limit priest 1
                 population_health_bonus bonus 1
             }
@@ -7256,7 +7256,7 @@ building temple_shaman
 				
 				agent priest  0  requires factions { horde, goblin, papal_states, } 
                 happiness_bonus bonus 2
-                religion_level bonus 5
+                religion_level bonus 10
                 agent_limit priest 1
                 population_health_bonus bonus 2
             }
@@ -7309,7 +7309,7 @@ building temple_shaman_castle
 				
 				agent priest  0  requires factions { horde, goblin, papal_states, } 
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -7358,7 +7358,7 @@ building temple_undeath
 				
 				agent priest  0  requires factions { scourge, hungary, mongols, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -7381,7 +7381,7 @@ building temple_undeath
 				
 				agent priest  0  requires factions { scourge, hungary, mongols, }
                 happiness_bonus bonus 2
-                religion_level bonus 3
+                religion_level bonus 5
                 agent_limit priest 1
             }
             material wooden
@@ -7406,7 +7406,7 @@ building temple_undeath
 				
 				agent priest  0  requires factions { scourge, hungary, mongols, }
                 happiness_bonus bonus 2
-                religion_level bonus 4
+                religion_level bonus 5
                 agent_limit priest 1
                 population_health_bonus bonus 1
             }
@@ -7432,7 +7432,7 @@ building temple_undeath
 				
 				agent priest  0  requires factions { scourge, hungary, mongols, }
                 happiness_bonus bonus 2
-                religion_level bonus 5
+                religion_level bonus 10
                 agent_limit priest 1
                 population_health_bonus bonus 2
             }
@@ -7482,7 +7482,7 @@ building temple_undeath_castle
 				
 				agent priest  0  requires factions { scourge, hungary, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -7533,7 +7533,7 @@ building temple_moongodess
 				
 				agent priest  0  requires factions { kaldorei, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -7554,7 +7554,7 @@ building temple_moongodess
 				
 				agent priest  0  requires factions { kaldorei, }
                 happiness_bonus bonus 1
-                religion_level bonus 3
+                religion_level bonus 5
                 agent_limit priest 1
             }
             material wooden
@@ -7577,7 +7577,7 @@ building temple_moongodess
 
 				agent priest  0  requires factions { kaldorei, }
                 happiness_bonus bonus 2
-                religion_level bonus 4
+                religion_level bonus 8
                 agent_limit priest 1
                 population_health_bonus bonus 1
             }
@@ -7602,7 +7602,7 @@ building temple_moongodess
 				
 				agent priest  0  requires factions { kaldorei, }
                 happiness_bonus bonus 2
-                religion_level bonus 5
+                religion_level bonus 10
                 agent_limit priest 1
                 population_health_bonus bonus 2
             }
@@ -7654,7 +7654,7 @@ building temple_moongodess_castle
 				
 				agent priest  0  requires factions { kaldorei, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -7707,7 +7707,7 @@ building temple_troll
 				
 				agent priest  0  requires factions { aztecs, saxons, egypt, drakari, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -7738,7 +7738,7 @@ building temple_troll
 				
 				agent priest  0  requires factions { aztecs, saxons, egypt, drakari, }
                 happiness_bonus bonus 1
-                religion_level bonus 3
+                religion_level bonus 5
                 agent_limit priest 1
             }
             material wooden
@@ -7772,7 +7772,7 @@ building temple_troll
 				
 				agent priest  0  requires factions { aztecs, saxons, egypt, drakari, }
                 happiness_bonus bonus 2
-                religion_level bonus 4
+                religion_level bonus 8
                 agent_limit priest 1
                 population_health_bonus bonus 1
             }
@@ -7810,7 +7810,7 @@ building temple_troll
 				
 				agent priest  0  requires factions { aztecs, saxons, egypt, drakari, }
                 happiness_bonus bonus 2
-                religion_level bonus 5
+                religion_level bonus 10
                 agent_limit priest 1
                 population_health_bonus bonus 2
             }
@@ -7864,7 +7864,7 @@ building temple_troll_castle
 				
 				agent priest  0  requires factions { aztecs, saxons, egypt, drakari, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -7911,7 +7911,7 @@ building temple_titan
             {
 				agent priest  0  requires factions { khazmodan, darkiron, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -7931,7 +7931,7 @@ building temple_titan
 				
 				agent priest  0  requires factions { khazmodan, darkiron, }
                 happiness_bonus bonus 2
-                religion_level bonus 3
+                religion_level bonus 5
                 agent_limit priest 1
             }
             material wooden
@@ -7954,7 +7954,7 @@ building temple_titan
 				
 				agent priest  0  requires factions { khazmodan, darkiron, }
                 happiness_bonus bonus 2
-                religion_level bonus 4
+                religion_level bonus 8
                 agent_limit priest 1
                 population_health_bonus bonus 1
             }
@@ -7979,7 +7979,7 @@ building temple_titan
 				
 				agent priest  0  requires factions { khazmodan, darkiron, }
                 happiness_bonus bonus 2
-                religion_level bonus 5
+                religion_level bonus 10
                 agent_limit priest 1
                 population_health_bonus bonus 2
             }
@@ -8027,7 +8027,7 @@ building temple_titan_castle
             {
 				agent priest  0  requires factions { khazmodan, darkiron, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -8074,7 +8074,7 @@ building temple_sun
             {
 				agent priest  0  requires factions { quelthalas, venice, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -8093,7 +8093,7 @@ building temple_sun
 				recruit_pool "Elven Priest"  1   0.05   1  0  requires factions { quelthalas, venice, }
 				agent priest  0  requires factions { quelthalas, venice, }
                 happiness_bonus bonus 2
-                religion_level bonus 3
+                religion_level bonus 5
                 agent_limit priest 1
             }
             material wooden
@@ -8112,7 +8112,7 @@ building temple_sun
 				recruit_pool "Elven Priest"  1   0.05   1  0  requires factions { quelthalas, venice, }
 				agent priest  0  requires factions { quelthalas, venice, }
                 happiness_bonus bonus 2
-                religion_level bonus 4
+                religion_level bonus 8
                 agent_limit priest 1
                 population_health_bonus bonus 1
             }
@@ -8132,7 +8132,7 @@ building temple_sun
 				recruit_pool "Elven Priest"  1   0.05   1  0  requires factions { quelthalas, venice, }
 				agent priest  0  requires factions { quelthalas, venice, }
                 happiness_bonus bonus 2
-                religion_level bonus 5
+                religion_level bonus 10
                 agent_limit priest 1
                 population_health_bonus bonus 2
             }
@@ -8180,7 +8180,7 @@ building temple_sun_castle
             {
 				agent priest  0  requires factions { quelthalas, venice, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -8232,7 +8232,7 @@ building temple_legion
 				
 				agent priest  0  requires factions { legion, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -8255,7 +8255,7 @@ building temple_legion
 				
 				agent priest  0  requires factions { legion, }
                 happiness_bonus bonus 2
-                religion_level bonus 3
+                religion_level bonus 5
                 agent_limit priest 1
             }
             material wooden
@@ -8279,7 +8279,7 @@ building temple_legion
 				
 				agent priest  0  requires factions { legion, }
                 happiness_bonus bonus 2
-                religion_level bonus 4
+                religion_level bonus 8
                 agent_limit priest 1
                 population_health_bonus bonus 1
             }
@@ -8305,7 +8305,7 @@ building temple_legion
 				
 				agent priest  0  requires factions { legion, }
                 happiness_bonus bonus 2
-                religion_level bonus 5
+                religion_level bonus 10
                 agent_limit priest 1
                 population_health_bonus bonus 2
             }
@@ -8358,7 +8358,7 @@ building temple_legion_castle
 				
 				agent priest  0  requires factions { legion, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -8407,7 +8407,7 @@ building temple_naga
 				
 				agent priest  0  requires factions { normans, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -8428,7 +8428,7 @@ building temple_naga
 				
 				agent priest  0  requires factions { normans, }
                 happiness_bonus bonus 2
-                religion_level bonus 3
+                religion_level bonus 5
                 agent_limit priest 1
             }
             material wooden
@@ -8450,7 +8450,7 @@ building temple_naga
 				
 				agent priest  0  requires factions { normans, }
                 happiness_bonus bonus 2
-                religion_level bonus 4
+                religion_level bonus 8
                 agent_limit priest 1
                 population_health_bonus bonus 1
             }
@@ -8473,7 +8473,7 @@ building temple_naga
 				
 				agent priest  0  requires factions { normans, }
                 happiness_bonus bonus 2
-                religion_level bonus 5
+                religion_level bonus 10
                 agent_limit priest 1
                 population_health_bonus bonus 2
             }
@@ -8523,7 +8523,7 @@ building temple_naga_castle
 				
 				agent priest  0  requires factions { normans, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -8570,7 +8570,7 @@ building temple_heretic
             {
 				agent priest  0  requires factions { nerubians, timurids, }
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
@@ -8594,7 +8594,7 @@ building temple_heretic
 				
 				agent priest  0  requires factions { nerubians, timurids, }
                 happiness_bonus bonus 2
-                religion_level bonus 3
+                religion_level bonus 5
                 agent_limit priest 1
             }
             material wooden
@@ -8620,7 +8620,7 @@ building temple_heretic
 				
 				agent priest  0  requires factions { nerubians, timurids, }
                 happiness_bonus bonus 2
-                religion_level bonus 4
+                religion_level bonus 8
                 agent_limit priest 1
                 population_health_bonus bonus 1
             }
@@ -8647,7 +8647,7 @@ building temple_heretic
 				
 				agent priest  0  requires factions { nerubians, timurids, }
                 happiness_bonus bonus 2
-                religion_level bonus 5
+                religion_level bonus 10
                 agent_limit priest 1
                 population_health_bonus bonus 2
             }
@@ -8695,7 +8695,7 @@ building temple_heretic_castle
             {
 				agent priest  0  requires factions { nerubians, timurids, } 
                 happiness_bonus bonus 1
-                religion_level bonus 2
+                religion_level bonus 3
                 agent_limit priest 1
             }
             material wooden
