@@ -4216,7 +4216,6 @@ settlement
 	}
 }
 
-
 settlement
 {
 	level town
@@ -4368,6 +4367,8 @@ traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodDefender 1 , Intelligent 2
 army
 unit		Sentry Sentinels Bodyguard	exp 3 armour 0 weapon_lvl 0
 unit		Night Elven Militia			exp 0 armour 0 weapon_lvl 0
+
+; Inside Shadowglen
 
 character	Isoraen Nightstar, priest, male, age 20, x 73, y 196, portrait isoraen 
 traits NaturalPriestSkill 1 , StrongFaith 3 , PriestLevel 1 
@@ -8468,9 +8469,7 @@ region Lordaeron_Province
 farming_level 0
 famine_threat 0
 
-watchtower 268 246
-watchtower 280 237
-watchtower 264 232
+watchtower 268 245
 
 region Fenris_Province
 
@@ -8487,28 +8486,31 @@ region Tyrs_Hand_Province
 farming_level 0
 famine_threat 0
 
-watchtower 322 235
-watchtower 313 240
+watchtower 311 238
+watchtower 321 234
 
 region Durnhold_Province
 
 farming_level 0
 famine_threat 0
 
-watchtower 302 208
+watchtower 305 210
+watchtower 300 206
 
 region Hearthglen_Province
 
 farming_level 0
 famine_threat 0
 
+watchtower 282 238
+
 region Andorhal_Province
 
 farming_level 0
 famine_threat 0
 
+watchtower 297 221
 watchtower 286 221
-watchtower 297 222
 
 region Silverpine_Province
 
@@ -8537,7 +8539,8 @@ region Menethil_Province
 farming_level 0
 famine_threat 0
 
-watchtower 305 169
+watchtower 302 166
+watchtower 306 172
 
 region Brill_Province
 
@@ -8554,37 +8557,47 @@ region Stormwind_Province
 farming_level 0
 famine_threat 0
 
-watchtower 265 100
+watchtower 265 99
+watchtower 261 79
 
 region Goldshire_Province
 
 farming_level 0
 famine_threat 0
 
+watchtower 269 79
+watchtower 278 74
+
 region Lakeshire_Province
 
 farming_level 0
 famine_threat 0
 
-watchtower 293 102
-watchtower 275 102
+watchtower 290 87
+watchtower 277 101
+watchtower 295 101
 
 region Stonewatch_Province
 
 farming_level 0
 famine_threat 0
 
+watchtower 303 98
+
 region Darkshire_Province
 
 farming_level 0
 famine_threat 0
+
+watchtower 297 69
+watchtower 290 57
 
 region Raven_Hill_Province
 
 farming_level 0
 famine_threat 0 
 
-watchtower 276 52
+watchtower 275 53
 
 region Northshire_Province
 
@@ -8829,23 +8842,10 @@ region Nordassil_Province
 farming_level 0
 famine_threat 0
 
-watchtower 81 207
-
 region Astranar_Province
 
 farming_level 0
 famine_threat 0
-
-watchtower 74 196
-watchtower 57 201
-
-region Auberdine_Province
-
-farming_level 0
-famine_threat 0
-
-watchtower 53 225
-watchtower 45 203
 
 region Feathermoon_Province
 
@@ -8856,8 +8856,6 @@ region Constellas_Province
 
 farming_level 0
 famine_threat 0
-
-watchtower 65 217
 
 region Auberdine_Province
 
@@ -8873,9 +8871,6 @@ region Starfall_Province
 
 farming_level 0
 famine_threat 0
-
-watchtower 83 222
-watchtower 74 224
 
 region Nighthaven_Province
 
