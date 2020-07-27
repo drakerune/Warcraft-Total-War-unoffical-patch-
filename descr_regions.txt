@@ -918,7 +918,7 @@ Zul_Mamwe_Province
 	aztecs
 	Gurubashi_Rebels
 	61 52 94
-	troll, deadtroll, trade_coalition_trolls
+	troll, deadtroll, trade_coalition_trolls, gurubashi
 	5
 	5
 	religions { light 3 sun 0 moongodess 0 titan 0 shaman 4 undeath 2 legion 2 naga 6 troll 80 heretic 3 }
@@ -927,7 +927,7 @@ Zul_Kunda_Province
 	aztecs
 	Gurubashi_Rebels
 	82 246 206
-	troll, deadtroll, trade_coalition_trolls
+	troll, deadtroll, trade_coalition_trolls, gurubashi
 	5
 	5
 	religions { light 2 sun 0 moongodess 0 titan 0 shaman 6 undeath 2 legion 2 naga 4 troll 84 heretic 1 }
@@ -936,7 +936,7 @@ Zul_Gurub_Province
 	aztecs
 	Gurubashi_Rebels
 	197 203 176
-	troll, deadtroll, trade_coalition_trolls, capital
+	troll, deadtroll, trade_coalition_trolls, capital, gurubashi
 	5
 	5
 	religions { light 2 sun 0 moongodess 0 titan 0 shaman 0 undeath 2 legion 2 naga 4 troll 88 heretic 2 }
@@ -1567,7 +1567,7 @@ Aboraz_Province
 	aztecs
 	Gurubashi_Rebels
 	109 181 135
-	troll, deadtroll, trade_coalition_trolls
+	troll, deadtroll, trade_coalition_trolls, gurubashi
 	5
 	1
 	religions { light 2 sun 0 moongodess 0 titan 0 shaman 4 undeath 2 legion 2 naga 4 troll 84 heretic 2 }

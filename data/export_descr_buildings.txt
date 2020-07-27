@@ -3,8 +3,8 @@
 
 
 
-; Hidden Resources (55/64)
-hidden_resources capital rome italy america atlantic lordaeron stormwind alterac dalaran gilneas kultiras darktroll vrykul troll orgrimmar tauren icecrown deadtroll deadorc horde_target no_pirates no_brigands wildhammer frostborn taunka tuskarr goblin bloodelves_giants nightelves_giants darkiron_giants naga_giants scourge_giants darkhorde_dragons theramore grimtotem illidans_satyrs naga_royal_guard argent_dawn zandalari gnome drakkari_mammoth trade_coalition_bandits trade_coalition_trolls  trade_coalition_ogres trade_coalition_pirates centaur nerubian qiraji horde dark_horde kalimdor_ogres quelthalas farraki amani drakari gurubashi gurubashi_amani
+; Hidden Resources (54/64)
+hidden_resources capital rome italy america atlantic lordaeron stormwind alterac dalaran gilneas kultiras darktroll vrykul troll orgrimmar tauren icecrown deadtroll deadorc horde_target no_pirates no_brigands wildhammer frostborn taunka tuskarr goblin bloodelves_giants nightelves_giants darkiron_giants naga_giants scourge_giants darkhorde_dragons theramore grimtotem illidans_satyrs naga_royal_guard argent_dawn zandalari gnome drakkari_mammoth trade_coalition_bandits trade_coalition_trolls  trade_coalition_ogres trade_coalition_pirates centaur nerubian qiraji horde dark_horde kalimdor_ogres quelthalas farraki amani drakari gurubashi
 
 building core_building
 {
