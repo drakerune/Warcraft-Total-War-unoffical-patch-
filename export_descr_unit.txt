@@ -3102,7 +3102,7 @@ era 1            	scourge
 era 2            	scourge
 
 type             	Banshees
-dictionary       	banshees      ;
+dictionary       	banshees
 category         	infantry
 class            	missile
 voice_type       	Light
