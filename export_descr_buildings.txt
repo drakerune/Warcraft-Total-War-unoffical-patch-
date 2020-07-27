@@ -7406,7 +7406,7 @@ building temple_undeath
 				
 				agent priest  0  requires factions { scourge, hungary, mongols, }
                 happiness_bonus bonus 2
-                religion_level bonus 5
+                religion_level bonus 8
                 agent_limit priest 1
                 population_health_bonus bonus 1
             }
