@@ -1,0 +1,166 @@
+		; custom locations , add new locations at the bottom
+
+;;; Old placeholder locations
+
+
+custom_location		Scottish Glen ; Eastern Borean Tundra
+{
+	location		139	284
+	image			data/menu/battlefield_pics/scottish_glen.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+
+custom_location		Spanish Plain ; Amani Lands
+{
+	location		331	245
+	image			data/menu/battlefield_pics/spanish_plains.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+custom_location		Tuscany ; Lordaeron Road
+{
+	location		269	234 
+	image			data/menu/battlefield_pics/tuscany.tga
+	sett_locked		no
+	climate			unused1
+	summer			no
+}
+custom_location		Black Forest ; Quel'Thalas forest
+{
+	location		316	252 
+	image			data/menu/battlefield_pics/black_forest.tga
+	sett_locked		no
+	climate			unused1
+	summer			no
+}
+custom_location		Swiss Alp ; Dun Morogh Mountains
+{
+	location		279     158		;279	158
+	image			data/menu/battlefield_pics/swiss_alps.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		Morocco ; Durotar Coast
+{
+	location		106	181
+	image			data/menu/battlefield_pics/morocco.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			yes
+}
+custom_location		Saharan Sands ; Siithus Desert
+{
+	location		37	57
+	image			data/menu/battlefield_pics/saharan_sands.tga
+	sett_locked		no
+	climate			sandy_desert
+	summer			yes
+}
+custom_location		The Sea of Grass ; Northern Barrens
+{
+	location		87	187
+	image			data/menu/battlefield_pics/sea_of_grass.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			no
+}
+custom_location		Lebanon ; Eastern Tanaris
+{
+	location		103	79  ;103 79
+	image			data/menu/battlefield_pics/lebanon.tga
+	sett_locked		no
+	climate			sandy_desert
+	summer			yes
+}
+custom_location		Eifel Mountains ; Mount Hyjal
+{
+	location		72	206
+	image			data/menu/battlefield_pics/eifel_mountains.tga
+	sett_locked		no
+	climate			unused1
+	summer			no
+}
+custom_location		Carpathia ; Dragonblight
+{
+	location		188	291
+	image			data/menu/battlefield_pics/carpathia.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+custom_location		Palm Beach ; Uldum
+{
+	location		100	59
+	image			data/menu/battlefield_pics/palm_beach.tga
+	sett_locked		no
+	climate			sandy_desert
+	summer			yes
+}
+custom_location		Mayan Jungle ; Un'Goro Jungle
+{
+	location		68	61
+	image			data/menu/battlefield_pics/mayan_jungle.tga
+	sett_locked		no
+	climate			tropical
+	summer			yes
+}
+custom_location		Valley of Mexico ; Tel Abim
+{
+	location		140	67
+	image			data/menu/battlefield_pics/valley_of_mexico.tga
+	sett_locked		no
+	climate			tropical
+	summer			yes
+}
+custom_location		Highlands ; Wintergrasp
+{
+	location		150	299
+	image			data/menu/battlefield_pics/highlands.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+custom_location		Andalusia ; Desolace
+{
+	location		26	141
+	image			data/menu/battlefield_pics/andalusia.tga
+	sett_locked		no
+	climate			alpine
+	summer			no
+}
+custom_location		Lombardy ; Outside Stormwind City
+{
+	location		263	82
+	image			data/menu/battlefield_pics/lombardy.tga
+	sett_locked		no
+	climate			unused1
+	summer			no
+}
+custom_location		River Seine ; Eversong Woods River
+{
+	location		318	256
+	image			data/menu/battlefield_pics/river_seine.tga
+	sett_locked		yes
+	climate			unused1
+	summer			no
+}
+custom_location		River Jordan ; BrackenWall River
+{
+	location		80	142
+	image			data/menu/battlefield_pics/river_jordan.tga
+	sett_locked		yes
+	climate			unused1
+	summer			yes
+}
+custom_location		River Po ; Stormwind Bridge
+{
+	location		263	85
+	image			data/menu/battlefield_pics/river_po.tga
+	sett_locked		yes
+	climate			unused1
+	summer			no
+}

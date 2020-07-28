@@ -1972,7 +1972,7 @@ unit		Anubar Spiderling			exp 0 armour 0 weapon_lvl 0
 unit		Nerubian Skyscreamers		exp 0 armour 0 weapon_lvl 0
 unit		Nerubian Skyscreamers		exp 0 armour 0 weapon_lvl 0
 
-character	Anub Rekhan, named character, male, heir, age 20, x 163, y 302, portrait anubrekhan, battle_model nerubian_underkings 
+character	Anub Rekhan, named character, male, heir, age 20, x 163, y 303, portrait anubrekhan, battle_model nerubian_underkings 
 traits FactionHeir 1 , GoodCommander 3 , Energetic 2 , Intelligent 1 , Drink 1 , Bloodthirsty 2 
 army
 unit		Nerubian Underkings			exp 0 armour 0 weapon_lvl 0
