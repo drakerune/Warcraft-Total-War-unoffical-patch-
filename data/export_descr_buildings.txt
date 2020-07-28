@@ -1,6 +1,24 @@
-;This file is generated from a spreadsheet
-;Please do not modify by hand
-
+;####################################
+;####### Warcraft Total War #########
+;####################################
+;######## CORE BUILDINGS ############
+;######## HUMAN RECRUITMENT #########
+;# UNDEAD/OLDGOD/LEGION RECRUITMENT #
+;######## ORC RECRUITMENT ###########
+;###### ELF/NAGA RECRUITMENT ########
+;######## TROLL RECRUITMENT #########
+;######## DWARF RECRUITMENT #########
+;############## SIEGE ###############
+;############## SMITH ###############
+;############# ECONOMY ##############
+;############## ROADS ###############
+;############## FARMS ###############
+;############## MINES ###############
+;############# RELIGION #############
+;############# TAVERNS ##############
+;############ CITY HALL #############
+;############ LANDMARKS #############
+;####################################
 
 
 ; Hidden Resources (54/64)
@@ -9186,46 +9204,18 @@ building city_hall
 
 building hinterland_unique1
 {
-	levels grommash_hold undercity
+	levels grommash_hold
 	{
-		grommash_hold city requires factions { slave, }
+		grommash_hold  requires factions { horde, }
 		{
 			capability
 			{
-				retrain_cost_bonus bonus 1 requires factions { horde, goblin, }
-				recruit_pool "Korkron"  1  0.05  1  0  requires factions { horde, }
-				
-				recruit_pool "Blackrock Destroyers"  1  0.05  1  0  requires factions { goblin, }
-				law_bonus bonus 3 requires factions { horde, goblin, }
-				free_upkeep bonus 4 requires factions { horde, goblin, }
 			}
 			material wooden
-			construction 6
-			cost 12500
-			settlement_min village
-			upgrades
-			{
-				undercity
-			}
-		}
-		undercity city requires factions { slave, }
-		{
-			capability
-			{
-				recruit_pool "Deathguards"  1  0.06  1  0  requires factions { hungary, }
-				law_bonus bonus 2 requires factions { lordaeron, hungary, scourge, }
-				agent spy 0 requires factions { lordaeron, stormwind, centaur, hungary, scourge, }
-				agent_limit spy 1
-			}
-			faction_capability
-			{
-				law_bonus bonus 2 requires factions { lordaeron, hungary, }
-			}
-			material wooden
-			construction 6
-			cost 12500
-			settlement_min village
-			upgrades
+            construction  12
+            cost  15000
+            settlement_min village
+            upgrades
 			{
 			}
 		}

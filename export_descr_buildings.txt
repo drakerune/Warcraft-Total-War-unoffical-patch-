@@ -1,10 +1,31 @@
-;This file is generated from a spreadsheet
-;Please do not modify by hand
-
-
+;####################################
+;####### Warcraft Total War #########
+;####################################
+;######## CORE BUILDINGS ############
+;######## HUMAN RECRUITMENT #########
+;# UNDEAD/OLDGOD/LEGION RECRUITMENT #
+;######## ORC RECRUITMENT ###########
+;###### ELF/NAGA RECRUITMENT ########
+;######## TROLL RECRUITMENT #########
+;######## DWARF RECRUITMENT #########
+;############## SIEGE ###############
+;############## SMITH ###############
+;############# ECONOMY ##############
+;############## ROADS ###############
+;############## FARMS ###############
+;############## MINES ###############
+;############# RELIGION #############
+;############# TAVERNS ##############
+;############ CITY HALL #############
+;############ LANDMARKS #############
+;####################################
 
 ; Hidden Resources (55/64)
 hidden_resources capital rome italy america atlantic lordaeron stormwind alterac dalaran gilneas kultiras darktroll vrykul troll orgrimmar tauren icecrown deadtroll deadorc horde_target no_pirates no_brigands wildhammer frostborn taunka tuskarr goblin bloodelves_giants nightelves_giants darkiron_giants naga_giants scourge_giants darkhorde_dragons theramore grimtotem illidans_satyrs naga_royal_guard argent_dawn zandalari gnome drakkari_mammoth trade_coalition_bandits trade_coalition_trolls  trade_coalition_ogres trade_coalition_pirates centaur nerubian qiraji horde dark_horde kalimdor_ogres quelthalas farraki amani drakari gurubashi gurubashi_amani
+
+;###############################
+;######## CORE BUILDINGS #######
+;###############################
 
 building core_building
 {
@@ -293,7 +314,7 @@ building core_castle_building
 				wall_level 1
                 gate_strength 1
                 tower_level 1
-				free_upkeep bonus 2
+				free_upkeep bonus 3
                 law_bonus bonus 2
                 recruitment_slots 2
 				population_growth_bonus bonus 1
@@ -387,7 +408,7 @@ building core_castle_building
 				wall_level 2
                 tower_level 1
                 gate_strength 1
-				free_upkeep bonus 2
+				free_upkeep bonus 4
                 law_bonus bonus 3
                 recruitment_slots 2
 				population_growth_bonus bonus 1
@@ -481,7 +502,7 @@ building core_castle_building
 				wall_level 3
                 tower_level 1
                 gate_strength 2
-				free_upkeep bonus 2
+				free_upkeep bonus 5
                 law_bonus bonus 4
                 recruitment_slots 2
 				population_growth_bonus bonus 1
@@ -575,7 +596,7 @@ building core_castle_building
 				wall_level 4
                 tower_level 1
                 gate_strength 2
-				free_upkeep bonus 2
+				free_upkeep bonus 6
                 law_bonus bonus 5
                 recruitment_slots 2
 				population_growth_bonus bonus 1
@@ -9184,68 +9205,56 @@ building city_hall
     }
 }
 
-building guild_swordsmiths_guild
+building hinterland_unique1
 {
-    convert_to guild_swordsmiths_guild
-    levels swordsmiths_guild m_swordsmiths_guild gm_swordsmiths_guild 
-    {
-        swordsmiths_guild  requires factions {  } 
-        {
-            convert_to 0
-            capability
-            {
-                weapon_melee_blade 1
-            }
-            material wooden
-            construction  1 
-            cost  1000 
-            settlement_min city
-            upgrades
-            {
-                m_swordsmiths_guild
-            }
-        }
-        m_swordsmiths_guild  requires factions {  } 
-        {
-            convert_to 1
-            capability
-            {
-                weapon_melee_blade 1
-            }
-            faction_capability
-            {
-                
-            }
-            material wooden
-            construction  1 
-            cost  2000 
-            settlement_min large_city
-            upgrades
-            {
-                gm_swordsmiths_guild
-            }
-        }
-        gm_swordsmiths_guild  requires factions {  } 
-        {
-            convert_to 2
-            capability
-            {
-                weapon_melee_blade 1
-            }
-            faction_capability
-            {
-                
-            }
-            material wooden
-            construction  1 
-            cost  3000 
-            settlement_min large_city
-            upgrades
-            {
+	levels grommash_hold undercity
+	{
+		grommash_hold  requires factions { slave, } and hidden_resource rome
+		{
+			capability
+			{
+				retrain_cost_bonus bonus 1 requires factions { horde, goblin, }
+				recruit_pool "Korkron"  0  0.05  1  0  requires factions { horde, }
+				recruit_pool "Blackrock Destroyers"  0  0.05  1  0  requires factions { goblin, }
+				law_bonus bonus 3 requires factions { horde, goblin, }
+				free_upkeep bonus 4 requires factions { horde, goblin, }
+			}
+			faction_capability
+			{
+				law_bonus bonus 1 requires factions { horde, goblin, }
+			}
+			material wooden
+            construction  16
+            cost  18000
+            settlement_min village
+			upgrades
+			{
+				undercity
+			}
+		}	
+		undercity  requires factions { slave, } and hidden_resource rome
+		{
+			capability
+			{
+				recruit_pool "Deathguards"  1  0.06  1  0  requires factions { hungary, }
+				law_bonus bonus 2 requires factions { lordaeron, hungary, scourge, }
+				agent spy 0 requires factions { lordaeron, stormwind, centaur, hungary, scourge, }
+				agent_limit spy 1
+			}
+			faction_capability
+			{
+				law_bonus bonus 2 requires factions { lordaeron, hungary, }
+			}
+			material wooden
+			construction 6
+			cost 12500
+			settlement_min village
+			upgrades
+			{
             }
         }
     }
-    plugins 
+    plugins
     {
     }
 }
@@ -10425,6 +10434,71 @@ building temple_pagan
             construction  1 
             cost  15000 
             settlement_min town
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+building guild_swordsmiths_guild
+{
+    convert_to guild_swordsmiths_guild
+    levels swordsmiths_guild m_swordsmiths_guild gm_swordsmiths_guild 
+    {
+        swordsmiths_guild  requires factions {  } 
+        {
+            convert_to 0
+            capability
+            {
+                weapon_melee_blade 1
+            }
+            material wooden
+            construction  1 
+            cost  1000 
+            settlement_min city
+            upgrades
+            {
+                m_swordsmiths_guild
+            }
+        }
+        m_swordsmiths_guild  requires factions {  } 
+        {
+            convert_to 1
+            capability
+            {
+                weapon_melee_blade 1
+            }
+            faction_capability
+            {
+                
+            }
+            material wooden
+            construction  1 
+            cost  2000 
+            settlement_min large_city
+            upgrades
+            {
+                gm_swordsmiths_guild
+            }
+        }
+        gm_swordsmiths_guild  requires factions {  } 
+        {
+            convert_to 2
+            capability
+            {
+                weapon_melee_blade 1
+            }
+            faction_capability
+            {
+                
+            }
+            material wooden
+            construction  1 
+            cost  3000 
+            settlement_min large_city
             upgrades
             {
             }
