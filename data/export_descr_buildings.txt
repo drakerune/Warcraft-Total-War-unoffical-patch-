@@ -6323,6 +6323,63 @@ building castle_smith
     }
 }
 
+building weaponsmith
+{
+	levels fletcher bladesmith gunmaker
+	{
+		fletcher castle requires factions { northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, }
+		{
+			capability
+			{
+				weapon_missile_mechanical 1
+			}
+			material wooden
+			construction 2
+			cost 800
+			settlement_min town
+			upgrades
+			{
+				bladesmith
+			}
+		}
+		bladesmith castle requires factions { northern_european, mesoamerican, middle_eastern, eastern_european, greek, southern_european, }
+		{
+			capability
+			{
+				weapon_missile_mechanical 1
+				weapon_melee_blade 1
+			}
+			material wooden
+			construction 3
+			cost 1600
+			settlement_min large_town
+			upgrades
+			{
+				gunmaker
+			}
+		}
+		gunmaker castle requires factions { northern_european, southern_european, }
+		{
+			capability
+			{
+				weapon_missile_mechanical 1
+				weapon_melee_blade 1
+				weapon_projectile 1
+			}
+			material stone
+			construction 5
+			cost 3000
+			settlement_min city
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+    {
+    }
+}
+
 ;###############################
 ;########### ECONOMY ###########
 ;###############################
