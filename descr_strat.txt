@@ -61,43 +61,32 @@ free_upkeep_forts 4
 
 ;Lordaeron_Province
 resource	textiles,	272,	240
-resource	textiles,	270,	236
 resource	wine,	276,	238
 resource	iron,	268,	244
 resource	grain,	278,	236
-resource	grain,	265,	233
 
 ;Vandermar_Province
 resource	timber,	260,	225
-resource	amber,	267,	224
 
 ;Silverpine_Province
 resource	timber,	264,	208
-resource	timber,	259,	211
 resource	furs,	265,	215
 
 ;Gilneas_Province
-resource	wine,	256,	202
 resource	fish,	260,	194
-resource	silk,	255,	193
 resource	silver,	262,	202
 
 ;Ambermil_Province
-resource	timber,	268,	207
 resource	amber,	270,	211
 
 ;Dalaran_Province
 resource	silk,	276,	215
-resource	textiles,	280,	213
-resource	textiles,	283,	216
 
 ;Alterac_Province
 resource	wool,	284,	227
 resource	iron,	280,	223
 
 ;Hearthglen_Province
-resource	marble,	293,	239
-resource	grain,	289,	231
 resource	grain,	294,	233
 resource	grain,	297,	237
 
@@ -106,33 +95,20 @@ resource	grain,	295,	226
 resource	grain,	291,	229
 
 ;Stratholme_Province
-resource	marble,	298,	243
 resource	wine,	304,	244
-resource	textiles,	303,	241
 resource	grain,	301,	239
 
-;Corins_Crossing_Province
-resource	grain,	308,	235
-resource	grain,	303,	234
-
 ;Tyrs_Hand_Province
-resource	grain,	312,	232
 resource	silver,	319,	230
-resource	textiles,	316,	233
 
 ;Zul_Aman_Province
-resource	timber,	323,	238
-resource	tobacco,	327,	241
 resource	furs,	328,	235
 
 ;Tor_Watha_Region
 resource	fish,	332,	245
-resource	tobacco,	327,	248
 
 ;Silvermoon_Province
 resource	silk,	329,	259
-resource	silk,	326,	257
-resource	silk,	323,	259
 resource	gold,	325,	254
 
 ;Fairbreeze_Region
@@ -143,109 +119,75 @@ resource	fish,	316,	260
 
 ;Tranquilien_Province
 resource	timber,	321,	249
-resource	silk,	317,	248
-resource	silk,	313,	249
 resource	furs,	310,	253
 
 ;Sunwell_Province
 resource	fish,	327,	270
-resource	fish,	336,	265
 resource	marble,	330,	269
 
 ;Jintha_Alor_Province
 resource	timber,	315,	217
-resource	tobacco,	321,	217
 
 ;Shadraalor_Province
 resource	furs,	307,	221
 
 ;Hinterlands_Province
-resource	gold,	306,	224
 resource	iron,	300,	221
 
 ;Southshore_Province
-resource	fish,	291,	206
 resource	fish,	284,	209
 
 ;Kul_Tiras_Province
-resource	textiles,	284,	189
 resource	wine,	280,	184
-resource	fish,	284,	183
 resource	fish,	276,	191
 
 ;Durnhold_Province
 resource	iron,	302,	213
-resource	grain,	294,	214
-resource	wool,	299,	207
 
 ;Tarren_Mill_Province
 resource	grain,	288,	213
 
 ;Stromgarde_Province
-resource	textiles,	304,	198
-resource	textiles,	308,	194
-resource	grain,	308,	188
-resource	silver,	312,	201
+resource	iron,	312,	201
 
 ;Hamerfall_Province
-resource	wool,	317,	199
 resource	wool,	311,	207
 
 ;Whitebark_Province
 resource	timber,	314,	191
-resource	tobacco,	322,	188
 
 ;Dun_Modr_Province
 resource	iron,	304,	180
-resource	furs,	308,	175
 
 ;Menethil_Province
-resource	furs,	302,	170
-resource	silver,	306,	167
+resource	fish,	306,	167
 
 ;Grim_Batol_Province
 resource	gold,	322,	174
 
 ;Ironforge_Province
-resource	gold,	277,	157
 resource	marble,	270,	156
-resource	iron,	285,	159
-resource	wool,	284,	151
-resource	silver,	275,	151
 resource	wool,	286,	155
 
 ;Kharanos_Province
 resource	furs,	278,	143
-resource	silver,	286,	145
 
 ;Gnomeregan_Province
 resource	iron,	262,	147
 
 ;Anvilmar_Province
 resource	wool,	273,	143
-resource	marble,	269,	141
 
 ;Thelsamar_Province
 resource	fish,	304,	153
-resource	timber,	296,	152
-resource	furs,	294,	146
 resource	timber,	300,	144
 
 ;Stonewrought_Dam_Province
 resource	iron,	317,	144
 
-;Angor_Province
-resource	tin,	287,	129
-
 ;Cauldron_Province
 resource	tin,	281,	132
-resource	tin,	273,	131
-resource	tin,	275,	122
-resource	slaves,	272,	127
 resource	slaves,	279,	127
-
-;Firewatch_Province
-resource	tin,	268,	130
 
 ;Shadowforge_Province
 resource	gold,	276,	116
@@ -257,7 +199,6 @@ resource	silver,	290,	115
 
 ;Thaurissan_Province
 resource	iron,	296,	111
-resource	iron,	305,	117
 
 ;Dreadmaul_Province
 resource	silver,	321,	113
@@ -269,62 +210,42 @@ resource	timber,	300,	100
 ;Lakeshire_Province
 resource	fish,	291,	98
 resource	timber,	287,	92
-resource	dyes,	279,	100
 
 ;Stonewatch_Province
-resource	marble,	316,	101
 resource	iron,	319,	88
-resource	fish,	299,	90
 
 ;Goldshire_Province
 resource	grain,	269,	73
 resource	grain,	278,	75
 resource	gold,	275,	79
 
-;Northshire_Province
-resource	wine,	274,	89
-
 ;Eastvale_Province
 resource	timber,	282,	79
 resource	timber,	287,	80
-resource	timber,	291,	76
 resource	iron,	280,	82
 
 ;Stormwind_Province
-resource	silk,	261,	90
-resource	silk,	264,	92
 resource	fish,	260,	97
-resource	dyes,	265,	97
 
 ;Sentinel_Hill_Province
-resource	iron,	255,	74
-resource	grain,	255,	67
 resource	grain,	263,	73
 resource	grain,	267,	67
 
 ;Moonbrook_Province
-resource	grain,	260,	61
-resource	fish,	263,	51
 resource	gold,	254,	58
 
 ;Raven_Hill_Province
 resource	timber,	276,	66
-resource	textiles,	274,	56
 resource	dyes,	282,	62
 
 ;Darkshire_Province
-resource	grain,	286,	55
-resource	textiles,	291,	62
 resource	textiles,	287,	68
 
 ;Zul_Gurub_Province
 resource	gold,	300,	43
-resource	gold,	296,	46
 resource	chocolate,	294,	42
 
 ;Zul_Kunda_Province
-resource	tobacco,	274,	43
-resource	chocolate,	277,	39
 resource	fish,	271,	38
 
 ;Zul_Mamwe_Province
@@ -336,99 +257,67 @@ resource	fish,	293,	32
 ;Mizjah_Province
 resource	silver,	277,	29
 
-;Booty_Bay_Province
-resource	silk,	272,	18
+;Booty_Bay_Province,
 resource	spices,	277,	22
 resource	fish,	283,	18
 
 ;Karazhan_Province
 resource	wine,	298,	58
-resource	textiles,	303,	54
 
 ;Marshtide_Province
 resource	iron,	318,	77
-resource	sulfur,	323,	66
 resource	sulfur,	323,	75
 
 ;Stonard_Province
 resource	dyes,	314,	65
-resource	dyes,	308,	71
 resource	silver,	311,	64
 
 ;Nethergarde_Province
 resource	tin,	320,	56
-resource	tin,	312,	54
 
 ;Dark_Portal_Province
 resource	tin,	316,	39
-resource	sulfur,	322,	45
 
 ;Darkspear_Isles_Province
-resource	fish,	223,	137
 resource	fish,	216,	133
 
-;Broken_Isles_Province
-resource	wine,	157,	214
-resource	spices,	164,	212
-
 ;Plunder_Province
-resource	chocolate,	224,	46
 resource	fish,	220,	41
 
 ;Tel_Abim_Province
-resource	chocolate,	138,	68
 resource	fish,	143,	68
 
 ;Zuldazar_Province
 resource	gold,	183,	93
 resource	gold,	180,	92
-resource	chocolate,	180,	84
-resource	tobacco,	184,	85
 
 ;Kezan_Province
 resource	silk,	181,	63
-resource	textiles,	177,	64
-resource	marble,	174,	57
 resource	marble,	175,	51
-resource	chocolate,	178,	49
 
 ;Orgrimmar_Province
 resource	gold,	98,	184
-resource	spices,	104,	181
-resource	silk,	101,	180
-resource	spices,	99,	175
 
 ;Sen_Jin_Province
-resource	iron,	100,	165
 resource	fish,	107,	161
 
 ;Razor_Hill_Region
-resource	fish,	109,	171
 resource	ivory,	102,	170
 
 ;Vol_Jin_Province
-resource	chocolate,	113,	164
+resource	fish,	113,	164
 
 ;Crossroads_Province
 resource	ivory,	80,	166
-resource	ivory,	75,	175
-resource	marble,	81,	177
-resource	grain,	91,	177
-resource	ivory,	91,	169
 
 ;Ratchet_Province
 resource	silver,	85,	159
-resource	silk,	87,	158
 
 ;Taurajo_Province
 resource	iron,	70,	140
-resource	iron,	74,	160
-resource	ivory,	77,	153
 resource	ivory,	68,	140
-resource	spices,	66,	148
 
 ;Razorfen_Province
-resource	ivory,	67,	120
 resource	spices,	68,	124
 
 ;Blackthorn_Province
@@ -437,35 +326,25 @@ resource	marble,	64,	135
 ;Northwatch_Province
 resource	marble,	87,	154
 resource	dyes,	88,	143
-resource	sugar,	85,	137
 
 ;Mudsprocket_Province
-resource	iron,	88,	123
 resource	dyes,	86,	119
-resource	spices,	81,	126
 
 ;Brackenwall_Province
-resource	dyes,	82,	142
 resource	sugar,	77,	135
 
 ;Theramore_Province
 resource	fish,	100,	129
-resource	textiles,	96,	132
 resource	textiles,	90,	134
 
 ;Bloodhoof_Province
 resource	furs,	61,	157
-resource	furs,	55,	165
-resource	tobacco,	62,	163
 
 ;Thunder_Bluff_Province
 resource,	furs,	66,	172
 resource,	tobacco,	60,	172
-resource,	tin,	66,	176
-resource,	textiles,	53,	178
 
 ;Sun_Rock_Province
-resource	tobacco,	58,	188
 resource	timber,	65,	187
 resource	furs,	54,	194
 
@@ -475,106 +354,73 @@ resource	silver,	36,	194
 resource	iron,	36,	190
 
 ;Thaldarah_Province
-resource	timber,	45,	197
 resource	dyes,	50,	190
-resource	amber,	40,	189
 
 ;Thunder_Axe_Province
 resource	tin,	31,	180
-resource	tin,	43,	179
-resource	marble,	29,	167
-resource	ivory,	37,	174
-resource	spices,	42,	171
 
 ;Maraudon_Province
 resource	iron,	34,	157
-resource	ivory,	36,	160
 
 ;Shadowprey_Province
 resource	furs,	30,	151
 
 ;Kolkar_Province
 resource	ivory,	44,	163
-resource	ivory,	44,	153
 resource	slaves,	49,	156
 
 ;Magram_Province
 resource	fish,	25,	142
-resource	ivory,	30,	145
-resource	furs,	32,	137
 resource	slaves,	39,	135
 resource	iron,	42,	145
 
 ;Gelkis_Province
-resource	furs,	51,	135
-resource	slaves,	48,	138
 resource	slaves,	50,	147
 
 ;Oneiros_Province
 resource	timber,	48,	129
-resource	wine,	42,	127
-resource	textiles,	47,	125
 
 ;Ravenwind_Province
 resource	timber,	34,	123
-resource	silver,	40,	119
-resource	timber,	44,	116
 
 ;Isildien_Province
 resource	fish,	32,	110
-resource	timber,	38,	106
-resource	amber,	44,	110
 resource	iron,	45,	102
 
 ;Dire_Maul_Province
 resource	wine,	50,	116
-resource	silk,	53,	114
 resource	silk,	56,	115
 
 ;Mojache_Province
 resource	tobacco,	60,	106
-resource	tobacco,	55,	104
-resource	furs,	51,	107
 
 ;Feathermoon_Province
-resource	wine,	25,	118
 resource	fish,	22,	123
 
 ;Solarsal_Province
 resource	fish,	28,	110
-resource	fish,	19,	102
-resource	marble,	22,	99
 resource	sulfur,	25,	95
 
 ;Staghelm_Province
 resource	tin,	43,	90
-resource	tin,	51,	77
-resource	spices,	39,	81
 
 ;Cenarion_Hold_Province
-resource	sulfur,	28,	79
 resource	dyes,	43,	69
-resource	ivory,	39,	76
 
 ;Hive_Zora_Province
 resource	sulfur,	26,	72
-resource	fish,	23,	65
 resource	iron,	33,	67
 
 ;Southwind_Province
 resource	ivory,	43,	63
-resource	ivory,	47,	56
 resource	spices,	54,	58
 
 ;Hive_Regal_Province
 resource	gold,	54,	47
 
 ;Ahn_Qiraj_Province
-resource	sulfur,	53,	39
 resource	fish,	45,	36
-resource	sulfur,	22,	59
 resource	spices,	31,	48
-resource	spices,	33,	45
 resource	gold,	36,	46
 
 ;Ungorro_Province
@@ -583,88 +429,59 @@ resource	timber,	66,	79
 
 ;Gorishi_Province
 resource	timber,	64,	70
-resource	timber,	73,	71
-resource	chocolate,	71,	61
 resource	gold,	64,	59
 
 ;Zul_Farrak_Province
-resource	tobacco,	87,	87
-resource	tobacco,	80,	80
 resource	gold,	86,	81
 
 ;Gadgetzan_Province
 resource	iron,	92,	89
-resource	silk,	99,	86
-resource	silk,	96,	83
-resource	dyes,	100,	80
 resource	sulfur,	106,	81
 
 ;Dunemaul_Province
 resource	ivory,	86,	72
-resource	ivory,	94,	68
-resource	ivory,	86,	63
 
 ;Uldum_Province
-resource	sulfur,	94,	45
-resource	sulfur,	99,	48
 resource,	gold,	87,	52
 resource,	silver,	90,	57
 
 ;Lost_Rigger_Province
 resource	ivory,	99,	75
-resource	marble,	101,	68
 resource	fish,	104,	62
 
 ;Shimmering_Province
 resource	sulfur,	107,	102
-resource	sulfur,	100,	99
 
 ;Freewind_Province
 resource	tobacco,	78,	101
-resource	tobacco,	83,	105
-resource	ivory,	92,	102
 
 ;Darkcloud_Province
 resource	tobacco,	70,	104
-resource	sugar,	64,	112
 
 ;Eldareth_Province
 resource	fish,	105,	200
-resource	fish,	110,	191
 resource	marble,	99,	194
-resource	dyes,	96,	201
 resource	silk,	100,	200
 
 ;Arkkoran_Province
-resource	fish,	119,	199
 resource	fish,	110,	202
 
 ;Nendis_Province
-resource	gold,	100,	207
+resource	fish,	100,	207
 
 ;Splintertree_Province
 resource	timber,	81,	196
 resource	timber,	90,	199
-resource	timber,	83,	191
-resource	amber,	87,	193
 
 ;Astranar_Province
 resource	timber,	71,	201
-resource	timber,	67,	195
-resource	timber,	60,	201
-resource	amber,	75,	196
 resource	amber,	54,	206
 
 ;Constellas_Province
-resource	silver,	53,	209
-resource	textiles,	56,	212
 resource	amber,	61,	218
 resource	silver,	65,	218
 
 ;Nordassil_Province
-resource	silk,	72,	210
-resource	silk,	76,	209
-resource	wine,	74,	213
 resource	amber,	81,	209
 resource	timber,	67,	212
 
@@ -673,23 +490,16 @@ resource	timber,	66,	221
 resource	iron,	72,	222
 
 ;Auberdine_Province
-resource	iron,	49,	220
-resource	iron,	45,	211
-resource	iron,	41,	205
 resource	furs,	46,	204
 resource	fish,	39,	213
 
 ;Everlook_Province
 resource	textiles,	89,	219
-resource	textiles,	93,	215
-resource	tin,	96,	223
-resource	tin,	97,	212
 resource	tin,	90,	209
 
 ;Starfall_Province
 resource	tin,	78,	222
 resource	furs,	86,	227
-resource	furs,	82,	222
 
 ;Nighthaven_Province
 resource	wine,	71,	228
@@ -699,8 +509,6 @@ resource	wine,	65,	226
 resource	marble,	57,	227
 
 ;Darnassus_Province
-resource	silk,	39,	238
-resource	silk,	42,	235
 resource	sugar,	37,	234
 
 ;Shadowglen_Province
@@ -714,7 +522,7 @@ resource	fish,	30,	223
 
 ;Azuremyst_Province
 resource	furs,	25,	219
-resource	furs,	30,	217
+resource	fish,	30,	217
 
 ;Bloodmyst_Province
 resource	fish,	21,	225
@@ -722,24 +530,18 @@ resource	wine,	20,	230
 
 ;Nexus_Province
 resource	silver,	109,	284
-resource	silver,	112,	290
 resource	silver,	115,	286
 
 ;Amber_Province
 resource	amber,	120,	280
 resource	amber,	126,	282
-resource	gold,	128,	289
 
 ;Kaskala_Province
 resource	fish,	142,	276
 resource	fish,	137,	273
-resource	fish,	134,	270
-resource	furs,	133,	280
 
 ;Riplash_Province
 resource	silk,	124,	270
-resource	silk,	119,	267
-resource	furs,	116,	274
 resource	fish,	130,	265
 resource	fish,	112,	268
 
@@ -747,58 +549,38 @@ resource	fish,	112,	268
 resource	tobacco,	137,	280
 
 ;Enkilah_Province
-resource	marble,	144,	285
 resource	cotton,	146,	279
-resource	sugar,	134,	285
 
 ;Rainspeaker_Province
 resource	timber,	130,	298
 resource	timber,	134,	310
-resource	gold,	123,	314
-resource	silver,	122,	298
-resource	marble,	133,	295
 resource	fish,	129,	302
 
 ;Wintergrasp_Province
 resource	sulfur,	154,	300
-resource	sulfur,	148,	297
-resource	sulfur,	152,	291
+resource	iron,	148,	297
+resource	gold,	152,	291
 
 ;Ahn_Kahet_Province
-resource	coal,	160,	305
 resource	cotton,	164,	300
 
 ;Azjol_Nerub_Province
 resource	coal,	164,	297
-resource	cotton,	163,	290
 resource	cotton,	165,	289
 
 ;Icemist_Province
 resource	tobacco,	164,	282
-resource	coal,	167,	281
-resource	coal,	160,	283
 
-;Scourgeholme_Province
-resource	coal,	164,	319
 
 ;Ymirheim_Province
 resource	coal,	156,	329
-resource	coal,	150,	322
 resource	cotton,	154,	322
 
 ;Jotunheim_Province
-resource	coal,	133,	325
 resource	cotton,	132,	330
 
 ;Mordrethar_Province
-resource	coal,	160,	324
 resource	coal,	157,	317
-
-;Aldurthar_Province
-resource	coal,	143,	329
-
-;Corprethar_Province
-resource	coal,	136,	321
 
 ;Icecrown_Province
 resource	coal,	146,	311
@@ -806,17 +588,11 @@ resource	coal,	154,	311
 
 ;Shandaral_Province
 resource	silver,	173,	310
-resource	silver,	177,	300
-resource	sulfur,	186,	299
-resource	sulfur,	170,	307
 resource	timber,	179,	303
 
 ;Wyrmrest_Province
 resource	ivory,	175,	284
 resource	ivory,	170,	285
-resource	ivory,	175,	293
-resource	ivory,	182,	292
-resource	ivory,	187,	285
 resource	cotton,	180,	284
 
 ;Frozen_Shore
@@ -824,97 +600,68 @@ resource	grain,	189,	281
 resource	iron,	184,	280
 
 ;Venture_Bay_Province
-resource	grain,	191,	278
 resource	timber,	195,	276
 
 ;Frosthold_Province
 resource	cotton,	175,	325
-resource	marble,	179,	318
 resource	cotton,	177,	316
 resource	marble,	184,	314
-resource	cotton,	188,	308
 
 ;Ulduar_Province
 resource	coal,	187,	336
 resource	coal,	188,	338
-resource	silk,	192,	335
-
-;Valkyrion_Province
-resource	cotton,	171,	331
 
 ;Brunnhildar_Province
-resource	cotton,	188,	323
-resource	ivory,	183,	325
 resource	fur,	185,	318
 
 ;Tunkalo_Province
 resource	tobacco,	198,	323
 resource	ivory,	203,	319
-resource	salt,	193,	315
 
 ;Gundrak_Province
 resource	cotton,	219,	313
-resource	cotton,	215,	311
 resource	gold,	211,	315
-resource	sugar,	222,	311
 
 ;Zim_Torga_Province
-resource	silver,	209,	301
-resource	silver,	204,	300
-resource	tobacco,	208,	308
 resource	sugar,	197,	306
 
 ;Drak_Tharon_Province
 resource	timber,	192,	298
 resource	furs,	199,	298
-resource	tobacco,	194,	295
 
 ;Zeb_Halak_Province
-resource	timber,	199,	291
 resource	amber,	196,	286
 resource	furs,	198,	283
 
 ;Voldrune_Province
 resource	furs,	201,	275
-resource	amber,	205,	276
 resource	amber,	203,	282
 
 ;Vordassil_Province
 resource	timber,	205,	285
 resource	timber,	213,	295
-resource	amber,	206,	290
 resource	amber,	216,	287
 
 ;Thor_Modan_Province
 resource	silver,	225,	299
-resource	iron,	220,	296
 resource	iron,	223,	292
 
 ;Dun_Argol_Province
 resource	gold,	227,	289
-resource	furs,	220,	287
 
 ;Gjalebron_Province
-resource	spices,	207,	273
-resource	ivory,	203,	268
 resource	iron,	216,	272
 
 ;Utgarde_Province
 resource	cotton,	218,	270
-resource	cotton,	222,	269
-resource	wine,	218,	267
+resource	iron,	222,	269
 
 ;Halgrind_Province
 resource	iron,	212,	261
 resource	timber,	219,	260
-resource	wool,	214,	255
-resource	wool,	224,	250
 
 ;Nifflevar_Province
-resource	wool,	229,	257
-resource	timber,	233,	264
 resource	grain,	226,	270
-resource	marble,	231,	270
 
 ;###########################
 ;######## Factions #########
@@ -945,6 +692,10 @@ settlement
 	}
 	building
 	{
+		type hinterland_unique1 undercity
+	}
+	building
+	{
 		type hinterland_roads paved_roads
 	}
 	building
@@ -953,7 +704,15 @@ settlement
 	}
 	building
 	{
-		type barracks city_watch
+		type barracks town_watch
+	}
+	building
+	{
+		type c_equestrian c_stables
+	}
+	building
+	{
+		type c_missiles c_bowyer
 	}
 	building
 	{
@@ -1103,10 +862,6 @@ settlement castle
 	building
 	{
 		type hinterland_farms farms
-	}
-	building
-	{
-		type castle_barracks mustering_hall
 	}
 }
 
@@ -1360,7 +1115,7 @@ unit		Axe Militia					exp 0 armour 0 weapon_lvl 0
 unit		Bow Militia					exp 0 armour 0 weapon_lvl 0
 
 ; Inside Andorhal
-character	Taelan Fordring, named character, male, age 25, x 293, y 228, portrait taelan, battle_model Silver_Hand 
+character	Taelan Fordring, named character, male, age 25, x 296, y 228, portrait taelan, battle_model Silver_Hand 
 traits Generous 1 , CrusaderHistory 1 , BattleChivalry 1 , GoodAdministrator 2 , LoyaltyStarter 1 
 army
 unit		Knights Bodyguard			exp 3 armour 0 weapon_lvl 0
@@ -1513,6 +1268,10 @@ settlement
 	}
 	building
 	{
+		type hinterland_unique1 valley_of_heroes
+	}
+	building
+	{
 		type hinterland_roads paved_roads
 	}
 	building
@@ -1522,6 +1281,14 @@ settlement
 	building
 	{
 		type barracks town_guard
+	}
+	building
+	{
+		type c_equestrian c_stables
+	}
+	building
+	{
+		type c_missiles c_bowyer
 	}
 	building
 	{
@@ -1565,7 +1332,7 @@ settlement
 	}
 	building
 	{
-		type taverns inn
+		type taverns lions_pride
 	}
 	
 }
@@ -1916,10 +1683,10 @@ relative 	Daelin Proudmoore,	Larienne Proudmoore,	Jaina Proudmoore,	Tervosh,	end
 
 faction	centaur, fortified genghis
 ai_label		catholic
-denari				10000
+denari				8000
 denari_kings_purse	0
 
-settlement
+settlement castle
 {
 	level city
 	region Stromgarde_Province
@@ -1931,11 +1698,15 @@ settlement
 	
 	building
 	{
-		type core_building stone_wall
+		type core_castle_building fortress
 	}
 	building
 	{
-		type hinterland_roads paved_roads
+		type hinterland_unique2 strom_ruin
+	}
+	building
+	{
+		type hinterland_castle_roads c_paved_roads
 	}
 	building 
 	{
@@ -1943,19 +1714,11 @@ settlement
 	}
 	building
 	{
-		type barracks city_watch
+		type castle_barracks mustering_hall
 	}
 	building
 	{
-		type smith blacksmith
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type taverns brothel
+		type castle_smith c_blacksmith
 	}
 }
 
@@ -1999,6 +1762,10 @@ settlement castle
 	}
 	building
 	{
+		type hinterland_unique2 thorwall_ruin
+	}
+	building
+	{
 		type hinterland_castle_roads c_roads
 	}
 	building
@@ -2009,18 +1776,10 @@ settlement castle
 	{
 		type castle_barracks garrison_quarters
 	}
-	building
-	{
-		type missiles bowyer
-	}
-	building
-	{
-		type castle_smith c_blacksmith
-	}
 }
 
 character	Thoras Trollbane, named character, male, leader, age 46, x 306, y 196, portrait thoras 
-traits Factionleader 1 , GoodCommander 1 , Intelligent 2 , PublicFaith 2 , BattleDread 2 , StrategyDread 2 , ReligionStarter 1 
+traits Factionleader 1 , GoodCommander 2 , Intelligent 2 , PublicFaith 2 , BattleChivalry 2 , StrategyChivalry 2 , ReligionStarter 1 
 army
 unit		Trollslayers				exp 5 armour 1 weapon_lvl 0
 unit		Sword and Board Infantry	exp 0 armour 0 weapon_lvl 0
@@ -2028,7 +1787,7 @@ unit		human spear militia			exp 0 armour 1 weapon_lvl 0
 unit		Sword and Board Archers		exp 0 armour 0 weapon_lvl 0
 
 character	Galen Trollbane, named character, male, heir, age 24, x 305, y 206, portrait galen 
-traits FactionHeir 1, Generous 1 , BattleChivalry 1 , LoyaltyStarter 1 
+traits FactionHeir 1 , BattleDread 1 , Disloyal 2
 army
 unit		Red Legion Equestrian		exp 3 armour 0 weapon_lvl 0
 unit		Footmen						exp 0 armour 0 weapon_lvl 0
@@ -2158,6 +1917,10 @@ settlement
 	}
 	building
 	{
+		type hinterland_unique4 ancient_kingdom
+	}
+	building
+	{
 		type hinterland_roads paved_roads
 	}
 	building
@@ -2171,10 +1934,6 @@ settlement
 	building
 	{
 		type temple_heretic church
-	}
-	building
-	{
-		type barracks_undead town_guard_undead
 	}
 }
 
@@ -2198,18 +1957,6 @@ settlement castle
 	}
 	building
 	{
-		type castle_barracks_undead mustering_hall_undead
-	}
-	building
-	{
-		type equestrian_undead stables_undead
-	}
-	building
-	{
-		type missiles_undead bowyer_undead
-	}
-	building
-	{
 		type castle_smith c_blacksmith
 	}
 }
@@ -2225,7 +1972,7 @@ unit		Anubar Spiderling			exp 0 armour 0 weapon_lvl 0
 unit		Nerubian Skyscreamers		exp 0 armour 0 weapon_lvl 0
 unit		Nerubian Skyscreamers		exp 0 armour 0 weapon_lvl 0
 
-character	Anub Rekhan, named character, male, heir, age 20, x 163, y 302, portrait anubrekhan, battle_model nerubian_underkings 
+character	Anub Rekhan, named character, male, heir, age 20, x 163, y 303, portrait anubrekhan, battle_model nerubian_underkings 
 traits FactionHeir 1 , GoodCommander 3 , Energetic 2 , Intelligent 1 , Drink 1 , Bloodthirsty 2 
 army
 unit		Nerubian Underkings			exp 0 armour 0 weapon_lvl 0
@@ -2292,6 +2039,10 @@ settlement castle
 	}
 	building
 	{
+		type hinterland_unique2 ice_citadel
+	}
+	building
+	{
 		type hinterland_castle_roads c_paved_roads
 	}
 	building
@@ -2308,7 +2059,7 @@ settlement castle
 	}
 	building
 	{
-		type castle_barracks_undead garrison_quarters_undead
+		type castle_barracks_undead mustering_hall_undead
 	}
 	building
 	{
@@ -2337,6 +2088,10 @@ settlement castle
 	building
 	{
 		type core_castle_building castle
+	}
+	building
+	{
+		type hinterland_unique2 scholomance
 	}
 	building
 	{
@@ -2519,7 +2274,7 @@ settlement
 character	Nerzhul, named character, male, leader, age 20, x 151, y 312, portrait nerzhul, battle_model liches 
 traits Factionleader 1 , GoodCommander 2 , GoodAdministrator 3 , Intelligent 3 , Bloodthirsty 2 , ReligionStarter 1, Immobile 1 
 army
-unit		Liches Bodyguard			exp 5 armour 1 weapon_lvl 0
+unit		Liches Bodyguard			exp 5 armour 1 weapon_lvl 1
 unit		Skeleton Soldiers			exp 0 armour 0 weapon_lvl 0
 unit		Skeleton Soldiers			exp 0 armour 0 weapon_lvl 0
 unit		Skeleton Spearmen			exp 0 armour 0 weapon_lvl 0
@@ -2784,6 +2539,10 @@ settlement castle
 	}
 	building
 	{
+		type hinterland_unique3 portal
+	}
+	building
+	{
 		type hinterland_castle_roads c_roads
 	}
 	building
@@ -2859,7 +2618,7 @@ settlement
 character	Archimonde the_Defiler, named character, male, leader, age 40, x 34, y 177, portrait archimonde 
 traits Factionleader 1 , GoodCommander 2 , PublicFaith 2 , Intelligent 1 , Bloodthirsty 1 , ReligionStarter 1 
 army
-unit		Demon Wrathguards Bodyguard	exp 5 armour 1 weapon_lvl 1
+unit		Manari Warlocks				exp 5 armour 1 weapon_lvl 1
 unit		Fel Soldiers				exp 1 armour 0 weapon_lvl 0
 unit		Demon Imps					exp 1 armour 0 weapon_lvl 0
 
@@ -2956,15 +2715,11 @@ settlement castle
 	}
 	building
 	{
+		type hinterland_unique4 temple_qiraj
+	}
+	building
+	{
 		type hinterland_farms farms
-	}
-	building
-	{
-		type castle_barracks_undead mustering_hall_undead
-	}
-	building
-	{
-		type missiles_undead bowyer_undead
 	}
 	building
 	{
@@ -3213,6 +2968,10 @@ settlement
 	}
 	building
 	{
+		type hinterland_unique1 grommash_hold
+	}
+	building
+	{
 		type barracks_orc city_watch_orc
 	}
 	building
@@ -3387,6 +3146,10 @@ settlement castle
 	}
 	building
 	{
+		type hinterland_unique1 blackwing
+	}
+	building
+	{
 		type hinterland_castle_roads c_paved_roads
 	}
 	building
@@ -3395,7 +3158,7 @@ settlement castle
 	}
 	building
 	{
-		type castle_barracks_orc garrison_quarters_orc
+		type castle_barracks_orc mustering_hall_orc
 	}
 	building
 	{
@@ -3408,10 +3171,6 @@ settlement castle
 	building
 	{
 		type castle_smith c_blacksmith
-	}
-	building
-	{
-		type city_hall town_hall
 	}
 }
 
@@ -3468,6 +3227,10 @@ settlement castle
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type castle_barracks_orc mustering_hall_orc
 	}
 }
 
@@ -3873,6 +3636,10 @@ settlement
 	}
 	building
 	{
+		type hinterland_unique2 sunfury
+	}
+	building
+	{
 		type hinterland_roads paved_roads
 	}
 	building
@@ -3930,6 +3697,10 @@ settlement castle
 	building
 	{
 		type core_castle_building castle
+	}
+	building
+	{
+		type hinterland_unique2 sunwell
 	}
 	building
 	{
@@ -4042,14 +3813,6 @@ army
 unit		Elven Rangers				exp 3 armour 0 weapon_lvl 0
 unit		Elven Initiates				exp 0 armour 0 weapon_lvl 0
 
-character	Saethen, general, male, age 20, x 314, y 244
-army
-unit		Elven Initiates				exp 2 armour 1 weapon_lvl 0
-
-character	Karrin, general, male, age 20, x 318, y 251
-army
-unit		Elven Initiates				exp 2 armour 1 weapon_lvl 0
-
 character	Hathvelion Sungaze, spy, male, age 20, x 330, y 254, portrait sungaze 
 traits GoodSpy 2 , NaturalSpySkill 3 , NaturalAssassinSkill 3 
 
@@ -4082,6 +3845,10 @@ settlement
 	building
 	{
 		type core_building huge_stone_wall
+	}
+	building
+	{
+		type hinterland_worldtrees nordrassil
 	}
 	building
 	{
@@ -4216,7 +3983,6 @@ settlement
 	}
 }
 
-
 settlement
 {
 	level town
@@ -4270,6 +4036,10 @@ settlement
 	building
 	{
 		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_worldtrees teldrassil
 	}
 }
 
@@ -4369,6 +4139,8 @@ army
 unit		Sentry Sentinels Bodyguard	exp 3 armour 0 weapon_lvl 0
 unit		Night Elven Militia			exp 0 armour 0 weapon_lvl 0
 
+; Inside Shadowglen
+
 character	Isoraen Nightstar, priest, male, age 20, x 73, y 196, portrait isoraen 
 traits NaturalPriestSkill 1 , StrongFaith 3 , PriestLevel 1 
 
@@ -4401,6 +4173,10 @@ settlement
 	building
 	{
 		type core_building large_stone_wall
+	}
+	building
+	{
+		type hinterland_unique3 eldarath_palace
 	}
 	building
 	{
@@ -4518,7 +4294,7 @@ settlement
 	region Bashalaran_Province
 
 	year_founded 	0
-	population 		213
+	population 		426
 	plan_set default_set
 	faction_creator normans
 }
@@ -4529,7 +4305,7 @@ settlement
 	region Mathystra_Province
 
 	year_founded 	0
-	population 		284
+	population 		568
 	plan_set default_set
 	faction_creator normans
 }
@@ -4540,7 +4316,7 @@ settlement
 	region Amatharan_Province
 
 	year_founded 	0
-	population 		361
+	population 		722
 	plan_set default_set
 	faction_creator normans
 }
@@ -4551,7 +4327,7 @@ settlement
 	region Bloodmyst_Province
 
 	year_founded 	0
-	population 		143
+	population 		386
 	plan_set default_set
 	faction_creator normans
 }
@@ -4648,6 +4424,10 @@ settlement
 	building
 	{
 		type core_building stone_wall
+	}
+	building
+	{
+		type hinterland_unique3 amani_zigg
 	}
 	building
 	{
@@ -4837,6 +4617,10 @@ settlement
 	}
 	building
 	{
+		type hinterland_unique3 blood
+	}
+	building
+	{
 		type hinterland_roads roads
 	}
 	building
@@ -4920,6 +4704,14 @@ settlement
 	}
 	building
 	{
+		type hinterland_unique3 chief_hall
+	}
+	building
+	{
+		type hinterland_unique3 pool_rilla
+	}
+	building
+	{
 		type hinterland_roads roads
 	}
 	building
@@ -4998,6 +4790,10 @@ settlement
 	building
 	{
 		type core_building stone_wall
+	}
+	building
+	{
+		type hinterland_unique4 ritual_chamber
 	}
 	building
 	{
@@ -5173,6 +4969,10 @@ settlement
 	}
 	building
 	{
+		type hinterland_unique1 great_forge
+	}
+	building
+	{
 		type hinterland_roads paved_roads
 	}
 	building
@@ -5190,10 +4990,6 @@ settlement
 	building
 	{
 		type market corn_exchange
-	}
-	building
-	{
-		type smith blacksmith
 	}
 }
 
@@ -5483,6 +5279,14 @@ settlement
 	}
 	building
 	{
+		type hinterland_unique1 dark_anvil
+	}
+	building
+	{
+		type hinterland_unique1 molten_core
+	}
+	building
+	{
 		type hinterland_roads roads
 	}
 	building
@@ -5496,10 +5300,6 @@ settlement
 	building
 	{
 		type taverns tavern
-	}
-	building
-	{
-		type smith blacksmith
 	}
 }
 
@@ -5574,9 +5374,9 @@ unit		Dwarven Militia				exp 0 armour 0 weapon_lvl 0
 character	Coren Direbrew, named character, male, age 35, x 279, y 119, portrait direbrew 
 traits GoodCommander 2 , Energetic 2 , Intelligent 1 , Drink 1 , Bloodthirsty 2 , ReligionStarter 1 
 army
-unit		Doomforge Pulverizer Bodyguard	exp 3 armour 0 weapon_lvl 0
-unit		Dwarven Militia				exp 0 armour 0 weapon_lvl 0
-unit		Darkiron Axe Throwers		exp 0 armour 0 weapon_lvl 0
+unit		Doomforge Pulverizer Bodyguard	exp 3 armour 1 weapon_lvl 1
+unit		Dwarven Militia				exp 0 armour 1 weapon_lvl 1
+unit		Darkiron Axe Throwers		exp 0 armour 1 weapon_lvl 1
 
 character	Galgann Firehammer, named character, male, age 35, x 299, y 132, portrait galgann 
 traits GoodCommander 2 , Energetic 2 , Intelligent 1 , Drink 1 , Bloodthirsty 2 , ReligionStarter 1 
@@ -5685,6 +5485,10 @@ settlement
 	building
 	{
 		type core_building stone_wall
+	}
+	building
+	{
+		type hinterland_unique2 violet
 	}
 	building
 	{
@@ -6258,6 +6062,10 @@ settlement
 	}
 	building
 	{
+		type hinterland_worldtrees vordrassil_c
+	}
+	building
+	{
 		type hinterland_farms farms
 	}
 	building
@@ -6432,7 +6240,7 @@ settlement castle
 
 settlement castle
 {
-	level large_town
+	level large_city
 	region Broken_Isles_Province
 
 	year_founded 	0
@@ -6442,7 +6250,11 @@ settlement castle
 	
 	building
 	{
-		type core_castle_building castle
+		type core_castle_building citadel
+	}
+	building
+	{
+		type hinterland_unique3 tomb
 	}
 }
 
@@ -7430,7 +7242,7 @@ unit		Highwaymen					exp 1 armour 0 weapon_lvl 0
 unit		Highwaymen					exp 1 armour 0 weapon_lvl 0
 
 ; Hive'Regal Rebels
-character	sub_faction timurids, Rkhem, named character, male, age 20, x 49, y 51, battle_model silithid_ravager
+character	sub_faction timurids, Rkhem, named character, male, age 20, x 50, y 49, battle_model silithid_ravager
 traits Generous 1 , BattleChivalry 1 , LoyaltyStarter 1
 army
 unit		Silithid Ravager			exp 0 armour 0 weapon_lvl 0
@@ -7442,7 +7254,7 @@ unit		Silithid Swarmers			exp 0 armour 0 weapon_lvl 0
 unit		Silithid Swarmers			exp 0 armour 0 weapon_lvl 0
 
 ; Hive'Zora Rebels
-character	sub_faction timurids, Drenn, named character, male, age 20, x 30, y 67, battle_model silithid_ravager
+character	sub_faction timurids, Drenn, named character, male, age 20, x 32, y 71, battle_model silithid_ravager
 traits Generous 1 , BattleChivalry 1 , LoyaltyStarter 1
 army
 unit		Silithid Ravager			exp 0 armour 0 weapon_lvl 0
@@ -8307,7 +8119,7 @@ faction_standings	lordaeron,		0.90	theramore, khazmodan
 faction_standings	lordaeron,		0.80	quelthalas, kaldorei
 faction_standings	lordaeron,		-1.00	slave, scourge, legion, horde, goblin
 
-faction_standings	stormwind,		1.00	lordaeron, stromgarde, khazmodan
+faction_standings	stormwind,		1.00	lordaeron, centaur, khazmodan
 faction_standings	stormwind,		0.90	theramore
 faction_standings	stormwind,		0.70	quelthalas, kaldorei
 faction_standings	stormwind,		-1.00	slave, aztecs, scourge, legion, goblin, horde
@@ -8468,9 +8280,7 @@ region Lordaeron_Province
 farming_level 0
 famine_threat 0
 
-watchtower 268 246
-watchtower 280 237
-watchtower 264 232
+watchtower 268 245
 
 region Fenris_Province
 
@@ -8487,28 +8297,31 @@ region Tyrs_Hand_Province
 farming_level 0
 famine_threat 0
 
-watchtower 322 235
-watchtower 313 240
+watchtower 311 238
+watchtower 321 234
 
 region Durnhold_Province
 
 farming_level 0
 famine_threat 0
 
-watchtower 302 208
+watchtower 305 210
+watchtower 300 206
 
 region Hearthglen_Province
 
 farming_level 0
 famine_threat 0
 
+watchtower 282 238
+
 region Andorhal_Province
 
 farming_level 0
 famine_threat 0
 
+watchtower 297 221
 watchtower 286 221
-watchtower 297 222
 
 region Silverpine_Province
 
@@ -8537,7 +8350,8 @@ region Menethil_Province
 farming_level 0
 famine_threat 0
 
-watchtower 305 169
+watchtower 302 166
+watchtower 306 172
 
 region Brill_Province
 
@@ -8554,37 +8368,47 @@ region Stormwind_Province
 farming_level 0
 famine_threat 0
 
-watchtower 265 100
+watchtower 265 99
+watchtower 261 79
 
 region Goldshire_Province
 
 farming_level 0
 famine_threat 0
 
+watchtower 269 79
+watchtower 278 74
+
 region Lakeshire_Province
 
 farming_level 0
 famine_threat 0
 
-watchtower 293 102
-watchtower 275 102
+watchtower 290 87
+watchtower 277 101
+watchtower 295 101
 
 region Stonewatch_Province
 
 farming_level 0
 famine_threat 0
 
+watchtower 303 98
+
 region Darkshire_Province
 
 farming_level 0
 famine_threat 0
+
+watchtower 297 69
+watchtower 290 57
 
 region Raven_Hill_Province
 
 farming_level 0
 famine_threat 0 
 
-watchtower 276 52
+watchtower 275 53
 
 region Northshire_Province
 
@@ -8829,23 +8653,10 @@ region Nordassil_Province
 farming_level 0
 famine_threat 0
 
-watchtower 81 207
-
 region Astranar_Province
 
 farming_level 0
 famine_threat 0
-
-watchtower 74 196
-watchtower 57 201
-
-region Auberdine_Province
-
-farming_level 0
-famine_threat 0
-
-watchtower 53 225
-watchtower 45 203
 
 region Feathermoon_Province
 
@@ -8856,8 +8667,6 @@ region Constellas_Province
 
 farming_level 0
 famine_threat 0
-
-watchtower 65 217
 
 region Auberdine_Province
 
@@ -8873,9 +8682,6 @@ region Starfall_Province
 
 farming_level 0
 famine_threat 0
-
-watchtower 83 222
-watchtower 74 224
 
 region Nighthaven_Province
 
